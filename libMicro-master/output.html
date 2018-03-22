@@ -1,0 +1,1392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta name="author" content="autogen" />
+<title>multiview comparison</title>
+<style type="text/css">
+body { font-family: sans-serif; }
+table { border-collapse: collapse; }
+td { padding: 0.1em; border: 1px solid #ccc; text-align: right; }
+td.header { text-align: left; }
+pre { margin-top: 0em; margin-bottom: 0em; }
+</style>
+</head>
+<body bgcolor="#ffffff" link="#0000ee" vlink="#cc0000" alink="#0000ee">
+<table border="1" cellspacing="1">
+<tbody>
+<tr><td class="header">Libmicro_#</td>
+<td class="header">0.4.1</td>
+<td class="header">0.4.1</td>
+</tr>
+<tr><td class="header">Options</td>
+<td class="header">-E -C 200 -L -S -W</td>
+<td class="header">-E -C 200 -L -S -W</td>
+</tr>
+<tr><td class="header">Machine_name</td>
+<td class="header">vmtcpt</td>
+<td class="header">main</td>
+</tr>
+<tr><td class="header">OS_name</td>
+<td class="header">Linux</td>
+<td class="header">Linux</td>
+</tr>
+<tr><td class="header">OS_release</td>
+<td class="header">4.4.0-62-generic</td>
+<td class="header">4.4.0-62-generic</td>
+</tr>
+<tr><td class="header">OS_build</td>
+<td class="header">#83-Ubuntu SMP Wed</td>
+<td class="header">#83-Ubuntu SMP Wed</td>
+</tr>
+<tr><td class="header">Processor</td>
+<td class="header">x86_64</td>
+<td class="header">x86_64</td>
+</tr>
+<tr><td class="header">#CPUs</td>
+<td class="header">48</td>
+<td class="header">1</td>
+</tr>
+<tr><td class="header">CPU_MHz</td>
+<td class="header">1000Mhz</td>
+<td class="header">2200Mhz</td>
+</tr>
+<tr><td class="header">CPU_NAME</td>
+<td class="header">AMD Opteron(tm) Processor 6337 HE</td>
+<td class="header">AMD Opteron 63xx class CPU</td>
+</tr>
+<tr><td class="header">IP_address</td>
+<td class="header">127.0.1.1</td>
+<td class="header">127.0.1.1</td>
+</tr>
+<tr><td class="header">Run_by</td>
+<td class="header">root</td>
+<td class="header">root</td>
+</tr>
+<tr><td class="header">Date</td>
+<td class="header">03/22/18 07:05</td>
+<td class="header">03/22/18 06:45</td>
+</tr>
+<tr><td class="header">Compiler</td>
+<td class="header">gcc</td>
+<td class="header">gcc</td>
+</tr>
+<tr><td class="header">Compiler Ver.</td>
+<td class="header">5.4.0</td>
+<td class="header">5.4.0</td>
+</tr>
+<tr><td class="header">sizeof(long)</td>
+<td class="header">8</td>
+<td class="header">8</td>
+</tr>
+<tr><td class="header">extra_CFLAGS</td>
+<td class="header">[none]</td>
+<td class="header">[none]</td>
+</tr>
+<tr><td class="header">TimerRes</td>
+<td class="header">1 nsecs</td>
+<td class="header">1 nsecs</td>
+</tr>
+<tr>
+<th>BENCHMARK</th>
+<th align="right">USECS</th>
+<th align="right">USECS [percentage]</th>
+</tr>
+<tr>
+<td>!Options:</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>#</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>bind</td>
+<td><pre>0.548250</pre></td>
+<td bgcolor="#ffffff"><pre>    0.51815[   +5.8%]</pre></td>
+</tr>
+<tr>
+<td>c_cond_1</td>
+<td><pre>0.924000</pre></td>
+<td bgcolor="#65c165"><pre>    0.44150[ +109.3%]</pre></td>
+</tr>
+<tr>
+<td>c_cond_10</td>
+<td><pre>230.935500</pre></td>
+<td bgcolor="#079c07"><pre>   51.00050[ +352.8%]</pre></td>
+</tr>
+<tr>
+<td>c_cond_200</td>
+<td><pre>5836.442000</pre></td>
+<td bgcolor="#1ea51e"><pre> 1660.34600[ +251.5%]</pre></td>
+</tr>
+<tr>
+<td>c_fcntl_1</td>
+<td><pre>9.859500</pre></td>
+<td bgcolor="#33ad33"><pre>    3.37900[ +191.8%]</pre></td>
+</tr>
+<tr>
+<td>c_fcntl_10</td>
+<td><pre>305.845000</pre></td>
+<td bgcolor="#1fa51f"><pre>   87.47550[ +249.6%]</pre></td>
+</tr>
+<tr>
+<td>c_fcntl_200</td>
+<td><pre>46987.931000</pre></td>
+<td bgcolor="#009900"><pre> 4766.89900[ +885.7%]</pre></td>
+</tr>
+<tr>
+<td>c_flock</td>
+<td><pre>4.916500</pre></td>
+<td bgcolor="#65c165"><pre>    2.35550[ +108.7%]</pre></td>
+</tr>
+<tr>
+<td>c_flock_10</td>
+<td><pre>46.976000</pre></td>
+<td bgcolor="#d9efd9"><pre>   37.42650[  +25.5%]</pre></td>
+</tr>
+<tr>
+<td>c_flock_200</td>
+<td><pre>867.329000</pre></td>
+<td bgcolor="#ffd4d4"><pre> 1519.41050[  -75.2%]</pre></td>
+</tr>
+<tr>
+<td>c_lockf_1</td>
+<td><pre>3.361500</pre></td>
+<td bgcolor="#edf8ed"><pre>    2.86750[  +17.2%]</pre></td>
+</tr>
+<tr>
+<td>c_lockf_10</td>
+<td><pre>293.400500</pre></td>
+<td bgcolor="#19a319"><pre>   78.89700[ +271.9%]</pre></td>
+</tr>
+<tr>
+<td>c_lockf_200</td>
+<td><pre>7363.865500</pre></td>
+<td bgcolor="#33ad33"><pre> 2518.40300[ +192.4%]</pre></td>
+</tr>
+<tr>
+<td>c_mutex_1</td>
+<td><pre>0.375500</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>c_mutex_10</td>
+<td><pre>208.918000</pre></td>
+<td bgcolor="#059b05"><pre>   44.97900[ +364.5%]</pre></td>
+</tr>
+<tr>
+<td>c_mutex_200</td>
+<td><pre>5448.859000</pre></td>
+<td bgcolor="#15a115"><pre> 1414.45200[ +285.2%]</pre></td>
+</tr>
+<tr>
+<td>chdir_tmp</td>
+<td><pre>3.589000</pre></td>
+<td bgcolor="#0e9e0e"><pre>    0.85900[ +317.8%]</pre></td>
+</tr>
+<tr>
+<td>chdir_usr</td>
+<td><pre>1.807000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.63800[  +10.3%]</pre></td>
+</tr>
+<tr>
+<td>chgetwd_tmp</td>
+<td><pre>4.904000</pre></td>
+<td bgcolor="#44b444"><pre>    1.89900[ +158.2%]</pre></td>
+</tr>
+<tr>
+<td>chgetwd_usr</td>
+<td><pre>4.914000</pre></td>
+<td bgcolor="#43b443"><pre>    1.89400[ +159.5%]</pre></td>
+</tr>
+<tr>
+<td>close_bad</td>
+<td><pre>0.160000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.14709[   +8.8%]</pre></td>
+</tr>
+<tr>
+<td>close_tcp</td>
+<td><pre>6.153690</pre></td>
+<td bgcolor="#b8e2b8"><pre>    4.33953[  +41.8%]</pre></td>
+</tr>
+<tr>
+<td>close_tmp</td>
+<td><pre>1.308690</pre></td>
+<td bgcolor="#48b648"><pre>    0.52319[ +150.1%]</pre></td>
+</tr>
+<tr>
+<td>close_usr</td>
+<td><pre>0.929720</pre></td>
+<td bgcolor="#77c877"><pre>    0.49112[  +89.3%]</pre></td>
+</tr>
+<tr>
+<td>close_zero</td>
+<td><pre>0.616590</pre></td>
+<td bgcolor="#def1de"><pre>    0.49919[  +23.5%]</pre></td>
+</tr>
+<tr>
+<td>conn_accept</td>
+<td><pre>1.413190</pre></td>
+<td bgcolor="#ffffff"><pre>    1.51145[   -7.0%]</pre></td>
+</tr>
+<tr>
+<td>conn_connect</td>
+<td><pre>9.121000</pre></td>
+<td bgcolor="#6ec56e"><pre>    4.58145[  +99.1%]</pre></td>
+</tr>
+<tr>
+<td>connection</td>
+<td><pre>23.273210</pre></td>
+<td bgcolor="#b1dfb1"><pre>   15.96844[  +45.7%]</pre></td>
+</tr>
+<tr>
+<td>dup</td>
+<td><pre>0.230210</pre></td>
+<td bgcolor="#ffffff"><pre>    0.21270[   +8.2%]</pre></td>
+</tr>
+<tr>
+<td>exec</td>
+<td><pre>1277.471000</pre></td>
+<td bgcolor="#049a04"><pre>  272.47230[ +368.8%]</pre></td>
+</tr>
+<tr>
+<td>exit_10</td>
+<td><pre>191.681800</pre></td>
+<td bgcolor="#b1e0b1"><pre>  131.97820[  +45.2%]</pre></td>
+</tr>
+<tr>
+<td>exit_100</td>
+<td><pre>52.629450</pre></td>
+<td bgcolor="#ffaeae"><pre>  123.08836[ -133.9%]</pre></td>
+</tr>
+<tr>
+<td>exit_1000</td>
+<td><pre>273.981750</pre></td>
+<td bgcolor="#59bc59"><pre>  122.28080[ +124.1%]</pre></td>
+</tr>
+<tr>
+<td>exit_10_nolibc</td>
+<td><pre>161.398000</pre></td>
+<td bgcolor="#8bd08b"><pre>   94.19080[  +71.4%]</pre></td>
+</tr>
+<tr>
+<td>exp</td>
+<td><pre>0.102400</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>fcntl_ndelay</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>fcntl_tmp</td>
+<td><pre>0.815000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>fcntl_usr</td>
+<td><pre>0.817000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>file_lock</td>
+<td><pre>2.892000</pre></td>
+<td bgcolor="#24a724"><pre>    0.87200[ +231.7%]</pre></td>
+</tr>
+<tr>
+<td>fork_10</td>
+<td><pre>354.386400</pre></td>
+<td bgcolor="#0a9d0a"><pre>   81.29050[ +336.0%]</pre></td>
+</tr>
+<tr>
+<td>fork_100</td>
+<td><pre>160.156660</pre></td>
+<td bgcolor="#ffeded"><pre>  218.55847[  -36.5%]</pre></td>
+</tr>
+<tr>
+<td>fork_1000</td>
+<td><pre>380.950890</pre></td>
+<td bgcolor="#e8f5e8"><pre>  318.88574[  +19.5%]</pre></td>
+</tr>
+<tr>
+<td>getcontext</td>
+<td><pre>0.875800</pre></td>
+<td bgcolor="#30ac30"><pre>    0.29160[ +200.3%]</pre></td>
+</tr>
+<tr>
+<td>getenv</td>
+<td><pre>0.359600</pre></td>
+<td bgcolor="#0e9e0e"><pre>    0.08670[ +314.8%]</pre></td>
+</tr>
+<tr>
+<td>getenvT2</td>
+<td><pre>0.897200</pre></td>
+<td bgcolor="#c9e9c9"><pre>    0.67450[  +33.0%]</pre></td>
+</tr>
+<tr>
+<td>getpeername</td>
+<td><pre>0.820000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>getpid</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>getrusage</td>
+<td><pre>1.183600</pre></td>
+<td bgcolor="#2fac2f"><pre>    0.39240[ +201.6%]</pre></td>
+</tr>
+<tr>
+<td>getsockname</td>
+<td><pre>0.871000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>gettimeofday</td>
+<td><pre>0.176300</pre></td>
+<td bgcolor="#e2f3e2"><pre>    0.14475[  +21.8%]</pre></td>
+</tr>
+<tr>
+<td>isatty_no</td>
+<td><pre>0.489400</pre></td>
+<td bgcolor="#40b240"><pre>    0.18420[ +165.7%]</pre></td>
+</tr>
+<tr>
+<td>isatty_yes</td>
+<td><pre>0.297050</pre></td>
+<td bgcolor="#e7f5e7"><pre>    0.24830[  +19.6%]</pre></td>
+</tr>
+<tr>
+<td>listen</td>
+<td><pre>0.717290</pre></td>
+<td bgcolor="#35ae35"><pre>    0.24931[ +187.7%]</pre></td>
+</tr>
+<tr>
+<td>localtime_r</td>
+<td><pre>0.388800</pre></td>
+<td bgcolor="#50b950"><pre>    0.16360[ +137.7%]</pre></td>
+</tr>
+<tr>
+<td>log</td>
+<td><pre>0.082000</pre></td>
+<td bgcolor="#c7e8c7"><pre>    0.06140[  +33.6%]</pre></td>
+</tr>
+<tr>
+<td>longjmp</td>
+<td><pre>0.082500</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>lrand48</td>
+<td><pre>0.076800</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>lseek_t8k</td>
+<td><pre>0.152990</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>lseek_u8k</td>
+<td><pre>0.412500</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>mallocT2_10</td>
+<td><pre>1.305600</pre></td>
+<td bgcolor="#41b341"><pre>    0.49670[ +162.9%]</pre></td>
+</tr>
+<tr>
+<td>mallocT2_100</td>
+<td><pre>1.285700</pre></td>
+<td bgcolor="#43b443"><pre>    0.49650[ +159.0%]</pre></td>
+</tr>
+<tr>
+<td>mallocT2_100k</td>
+<td><pre>12.682100</pre></td>
+<td bgcolor="#38af38"><pre>    4.48780[ +182.6%]</pre></td>
+</tr>
+<tr>
+<td>mallocT2_10k</td>
+<td><pre>1.408000</pre></td>
+<td bgcolor="#37af37"><pre>    0.49640[ +183.6%]</pre></td>
+</tr>
+<tr>
+<td>mallocT2_1k</td>
+<td><pre>1.387600</pre></td>
+<td bgcolor="#39b039"><pre>    0.49660[ +179.4%]</pre></td>
+</tr>
+<tr>
+<td>malloc_10</td>
+<td><pre>0.194550</pre></td>
+<td bgcolor="#089c08"><pre>    0.04360[ +346.2%]</pre></td>
+</tr>
+<tr>
+<td>malloc_100</td>
+<td><pre>0.181800</pre></td>
+<td bgcolor="#0e9e0e"><pre>    0.04345[ +318.4%]</pre></td>
+</tr>
+<tr>
+<td>malloc_100k</td>
+<td><pre>6.072700</pre></td>
+<td bgcolor="#3ab03a"><pre>    2.18360[ +178.1%]</pre></td>
+</tr>
+<tr>
+<td>malloc_10k</td>
+<td><pre>0.228850</pre></td>
+<td bgcolor="#4db84d"><pre>    0.09460[ +141.9%]</pre></td>
+</tr>
+<tr>
+<td>malloc_1k</td>
+<td><pre>0.199550</pre></td>
+<td bgcolor="#64c164"><pre>    0.09475[ +110.6%]</pre></td>
+</tr>
+<tr>
+<td>memcpy_10</td>
+<td><pre>0.051700</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>memcpy_10k</td>
+<td><pre>0.827000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.84500[   -2.2%]</pre></td>
+</tr>
+<tr>
+<td>memcpy_10m</td>
+<td><pre>3643.957000</pre></td>
+<td bgcolor="#ffffff"><pre> 3837.80000[   -5.3%]</pre></td>
+</tr>
+<tr>
+<td>memcpy_1k</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>memcpy_1m</td>
+<td><pre>78.899000</pre></td>
+<td bgcolor="#ffffff"><pre>   79.71700[   -1.0%]</pre></td>
+</tr>
+<tr>
+<td>memrand</td>
+<td><pre>0.046570</pre></td>
+<td bgcolor="#ffffff"><pre>    0.04678[   -0.5%]</pre></td>
+</tr>
+<tr>
+<td>memsetP2_10m</td>
+<td><pre>2740.276000</pre></td>
+<td bgcolor="#ffbfbf"><pre> 5695.90780[ -107.9%]</pre></td>
+</tr>
+<tr>
+<td>memset_10</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>memset_10k</td>
+<td><pre>1.767600</pre></td>
+<td bgcolor="#32ad32"><pre>    0.59840[ +195.4%]</pre></td>
+</tr>
+<tr>
+<td>memset_10m</td>
+<td><pre>2745.272500</pre></td>
+<td bgcolor="#ffffff"><pre> 2677.18020[   +2.5%]</pre></td>
+</tr>
+<tr>
+<td>memset_1k</td>
+<td><pre>0.081900</pre></td>
+<td bgcolor="#bfe5bf"><pre>    0.05940[  +37.9%]</pre></td>
+</tr>
+<tr>
+<td>memset_1m</td>
+<td><pre>65.284600</pre></td>
+<td bgcolor="#ffffff"><pre>   65.29020[   -0.0%]</pre></td>
+</tr>
+<tr>
+<td>memset_256</td>
+<td><pre>0.057700</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>memset_256_u</td>
+<td><pre>0.081700</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>memset_4k</td>
+<td><pre>0.286500</pre></td>
+<td bgcolor="#a7dca7"><pre>    0.18930[  +51.3%]</pre></td>
+</tr>
+<tr>
+<td>memset_4k_uc</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>mktime</td>
+<td><pre>15.925000</pre></td>
+<td bgcolor="#97d597"><pre>    9.81800[  +62.2%]</pre></td>
+</tr>
+<tr>
+<td>mktimeT2</td>
+<td><pre>116.759000</pre></td>
+<td bgcolor="#019901"><pre>   23.90600[ +388.4%]</pre></td>
+</tr>
+<tr>
+<td>mmap_a128k</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#51b951"><pre>    0.87000[ +135.4%]</pre></td>
+</tr>
+<tr>
+<td>mmap_a8k</td>
+<td><pre>1.844000</pre></td>
+<td bgcolor="#63c063"><pre>    0.87000[ +112.0%]</pre></td>
+</tr>
+<tr>
+<td>mmap_ra128k</td>
+<td><pre>22.839000</pre></td>
+<td bgcolor="#ffffff"><pre>   24.93200[   -9.2%]</pre></td>
+</tr>
+<tr>
+<td>mmap_ra8k</td>
+<td><pre>5.876000</pre></td>
+<td bgcolor="#6bc46b"><pre>    2.91500[ +101.6%]</pre></td>
+</tr>
+<tr>
+<td>mmap_rt128k</td>
+<td><pre>9.010000</pre></td>
+<td bgcolor="#f1f9f1"><pre>    7.78200[  +15.8%]</pre></td>
+</tr>
+<tr>
+<td>mmap_rt8k</td>
+<td><pre>5.727000</pre></td>
+<td bgcolor="#70c670"><pre>    2.91900[  +96.2%]</pre></td>
+</tr>
+<tr>
+<td>mmap_ru128k</td>
+<td><pre>25.856000</pre></td>
+<td bgcolor="#33ad33"><pre>    8.80300[ +193.7%]</pre></td>
+</tr>
+<tr>
+<td>mmap_ru8k</td>
+<td><pre>2.017040</pre></td>
+<td bgcolor="#ffe8e8"><pre>    2.91800[  -44.7%]</pre></td>
+</tr>
+<tr>
+<td>mmap_rz128k</td>
+<td><pre>64.815000</pre></td>
+<td bgcolor="#47b547"><pre>   25.68000[ +152.4%]</pre></td>
+</tr>
+<tr>
+<td>mmap_rz8k</td>
+<td><pre>5.960000</pre></td>
+<td bgcolor="#69c369"><pre>    2.91700[ +104.3%]</pre></td>
+</tr>
+<tr>
+<td>mmap_t128k</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#52b952"><pre>    0.87200[ +134.9%]</pre></td>
+</tr>
+<tr>
+<td>mmap_t8k</td>
+<td><pre>0.844000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.87000[   -3.1%]</pre></td>
+</tr>
+<tr>
+<td>mmap_u128k</td>
+<td><pre>0.662000</pre></td>
+<td bgcolor="#fff0f0"><pre>    0.87100[  -31.6%]</pre></td>
+</tr>
+<tr>
+<td>mmap_u8k</td>
+<td><pre>0.842000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.87000[   -3.3%]</pre></td>
+</tr>
+<tr>
+<td>mmap_wa128k</td>
+<td><pre>45.056000</pre></td>
+<td bgcolor="#ffffff"><pre>   44.90300[   +0.3%]</pre></td>
+</tr>
+<tr>
+<td>mmap_wa8k</td>
+<td><pre>3.893000</pre></td>
+<td bgcolor="#fff7f7"><pre>    4.71100[  -21.0%]</pre></td>
+</tr>
+<tr>
+<td>mmap_wt128k</td>
+<td><pre>54.883000</pre></td>
+<td bgcolor="#ffffff"><pre>   54.88600[   -0.0%]</pre></td>
+</tr>
+<tr>
+<td>mmap_wt8k</td>
+<td><pre>13.623000</pre></td>
+<td bgcolor="#50b950"><pre>    5.73200[ +137.7%]</pre></td>
+</tr>
+<tr>
+<td>mmap_wu128k</td>
+<td><pre>56.832000</pre></td>
+<td bgcolor="#ffffff"><pre>   53.86200[   +5.5%]</pre></td>
+</tr>
+<tr>
+<td>mmap_wu8k</td>
+<td><pre>13.878000</pre></td>
+<td bgcolor="#4db84d"><pre>    5.73500[ +142.0%]</pre></td>
+</tr>
+<tr>
+<td>mmap_wz128k</td>
+<td><pre>45.878000</pre></td>
+<td bgcolor="#ffffff"><pre>   45.92500[   -0.1%]</pre></td>
+</tr>
+<tr>
+<td>mmap_wz8k</td>
+<td><pre>3.894000</pre></td>
+<td bgcolor="#fff3f3"><pre>    4.96500[  -27.5%]</pre></td>
+</tr>
+<tr>
+<td>mmap_z128k</td>
+<td><pre>1.846000</pre></td>
+<td bgcolor="#63c063"><pre>    0.87100[ +111.9%]</pre></td>
+</tr>
+<tr>
+<td>mmap_z8k</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#51b951"><pre>    0.86800[ +135.9%]</pre></td>
+</tr>
+<tr>
+<td>mprot_tw128k</td>
+<td><pre>3.965000</pre></td>
+<td bgcolor="#ffd7d7"><pre>    6.77100[  -70.8%]</pre></td>
+</tr>
+<tr>
+<td>mprot_tw4m</td>
+<td><pre>24.881000</pre></td>
+<td bgcolor="#fff3f3"><pre>   31.85800[  -28.0%]</pre></td>
+</tr>
+<tr>
+<td>mprot_twz8k</td>
+<td><pre>1.839000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.90600[   -3.6%]</pre></td>
+</tr>
+<tr>
+<td>mprot_wz128k</td>
+<td><pre>8.752000</pre></td>
+<td bgcolor="#b1dfb1"><pre>    6.00300[  +45.8%]</pre></td>
+</tr>
+<tr>
+<td>mprot_wz8k</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.90700[   +7.4%]</pre></td>
+</tr>
+<tr>
+<td>mprot_z128k</td>
+<td><pre>1.024000</pre></td>
+<td bgcolor="#f0f9f0"><pre>    0.88100[  +16.2%]</pre></td>
+</tr>
+<tr>
+<td>mprot_z8k</td>
+<td><pre>0.813000</pre></td>
+<td bgcolor="#cfeccf"><pre>    0.62600[  +29.9%]</pre></td>
+</tr>
+<tr>
+<td>mutex_T2</td>
+<td><pre>9.984000</pre></td>
+<td bgcolor="#18a218"><pre>    2.66000[ +275.3%]</pre></td>
+</tr>
+<tr>
+<td>mutex_mt</td>
+<td><pre>0.082000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.08790[   -7.2%]</pre></td>
+</tr>
+<tr>
+<td>mutex_st</td>
+<td><pre>0.056300</pre></td>
+<td bgcolor="#ffe0e0"><pre>    0.08830[  -56.8%]</pre></td>
+</tr>
+<tr>
+<td>open_tmp</td>
+<td><pre>1.061200</pre></td>
+<td bgcolor="#ffffff"><pre>    1.02239[   +3.8%]</pre></td>
+</tr>
+<tr>
+<td>open_usr</td>
+<td><pre>1.159070</pre></td>
+<td bgcolor="#ffffff"><pre>    1.08139[   +7.2%]</pre></td>
+</tr>
+<tr>
+<td>open_zero</td>
+<td><pre>1.117000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.04641[   +6.7%]</pre></td>
+</tr>
+<tr>
+<td>pipe_pmp1</td>
+<td><pre>56.884000</pre></td>
+<td bgcolor="#009900"><pre>    4.95700[+1047.5%]</pre></td>
+</tr>
+<tr>
+<td>pipe_pmp4k</td>
+<td><pre>65.845000</pre></td>
+<td bgcolor="#009900"><pre>    7.79600[ +744.6%]</pre></td>
+</tr>
+<tr>
+<td>pipe_pmt1</td>
+<td><pre>57.655000</pre></td>
+<td bgcolor="#009900"><pre>    3.95400[+1358.1%]</pre></td>
+</tr>
+<tr>
+<td>pipe_pmt4k</td>
+<td><pre>69.942000</pre></td>
+<td bgcolor="#009900"><pre>    6.76900[ +933.3%]</pre></td>
+</tr>
+<tr>
+<td>pipe_pst1</td>
+<td><pre>1.845000</pre></td>
+<td bgcolor="#64c164"><pre>    0.87900[ +109.9%]</pre></td>
+</tr>
+<tr>
+<td>pipe_pst4k</td>
+<td><pre>4.918000</pre></td>
+<td bgcolor="#44b444"><pre>    1.90900[ +157.6%]</pre></td>
+</tr>
+<tr>
+<td>pipe_smp1</td>
+<td><pre>61.751000</pre></td>
+<td bgcolor="#009900"><pre>    9.84400[ +527.3%]</pre></td>
+</tr>
+<tr>
+<td>pipe_smp4k</td>
+<td><pre>73.784000</pre></td>
+<td bgcolor="#009900"><pre>   12.91100[ +471.5%]</pre></td>
+</tr>
+<tr>
+<td>pipe_smt1</td>
+<td><pre>60.822000</pre></td>
+<td bgcolor="#009900"><pre>    7.79400[ +680.4%]</pre></td>
+</tr>
+<tr>
+<td>pipe_smt4k</td>
+<td><pre>74.853000</pre></td>
+<td bgcolor="#009900"><pre>   11.89000[ +529.5%]</pre></td>
+</tr>
+<tr>
+<td>pipe_sst1</td>
+<td><pre>3.888000</pre></td>
+<td bgcolor="#099c09"><pre>    0.88000[ +341.8%]</pre></td>
+</tr>
+<tr>
+<td>pipe_sst4k</td>
+<td><pre>8.754000</pre></td>
+<td bgcolor="#31ac31"><pre>    2.93200[ +198.6%]</pre></td>
+</tr>
+<tr>
+<td>pipe_tmp1</td>
+<td><pre>109.886000</pre></td>
+<td bgcolor="#009900"><pre>   13.68200[ +703.1%]</pre></td>
+</tr>
+<tr>
+<td>pipe_tmp4k</td>
+<td><pre>121.657000</pre></td>
+<td bgcolor="#009900"><pre>   15.98800[ +660.9%]</pre></td>
+</tr>
+<tr>
+<td>pipe_tmt1</td>
+<td><pre>108.598000</pre></td>
+<td bgcolor="#009900"><pre>   11.89200[ +813.2%]</pre></td>
+</tr>
+<tr>
+<td>pipe_tmt4k</td>
+<td><pre>121.657000</pre></td>
+<td bgcolor="#009900"><pre>   14.96300[ +713.1%]</pre></td>
+</tr>
+<tr>
+<td>pipe_tst1</td>
+<td><pre>9.772000</pre></td>
+<td bgcolor="#96d596"><pre>    6.00200[  +62.8%]</pre></td>
+</tr>
+<tr>
+<td>pipe_tst4k</td>
+<td><pre>10.822000</pre></td>
+<td bgcolor="#9bd79b"><pre>    6.77100[  +59.8%]</pre></td>
+</tr>
+<tr>
+<td>poll_10</td>
+<td><pre>1.847000</pre></td>
+<td bgcolor="#64c164"><pre>    0.88100[ +109.6%]</pre></td>
+</tr>
+<tr>
+<td>poll_100</td>
+<td><pre>15.928000</pre></td>
+<td bgcolor="#40b240"><pre>    6.00200[ +165.4%]</pre></td>
+</tr>
+<tr>
+<td>poll_1000</td>
+<td><pre>55.846000</pre></td>
+<td bgcolor="#ffffff"><pre>   56.94600[   -2.0%]</pre></td>
+</tr>
+<tr>
+<td>poll_w10</td>
+<td><pre>1.845000</pre></td>
+<td bgcolor="#65c165"><pre>    0.88100[ +109.4%]</pre></td>
+</tr>
+<tr>
+<td>poll_w100</td>
+<td><pre>15.926000</pre></td>
+<td bgcolor="#40b240"><pre>    6.00400[ +165.3%]</pre></td>
+</tr>
+<tr>
+<td>poll_w1000</td>
+<td><pre>85.812000</pre></td>
+<td bgcolor="#a8dca8"><pre>   56.94500[  +50.7%]</pre></td>
+</tr>
+<tr>
+<td>prc</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>pread_t100k</td>
+<td><pre>12.861000</pre></td>
+<td bgcolor="#ffffff"><pre>   11.87500[   +8.3%]</pre></td>
+</tr>
+<tr>
+<td>pread_t10k</td>
+<td><pre>4.876000</pre></td>
+<td bgcolor="#44b444"><pre>    1.89400[ +157.4%]</pre></td>
+</tr>
+<tr>
+<td>pread_t1k</td>
+<td><pre>1.556000</pre></td>
+<td bgcolor="#82cd82"><pre>    0.86700[  +79.5%]</pre></td>
+</tr>
+<tr>
+<td>pread_u100k</td>
+<td><pre>35.897000</pre></td>
+<td bgcolor="#2fac2f"><pre>   11.88000[ +202.2%]</pre></td>
+</tr>
+<tr>
+<td>pread_u10k</td>
+<td><pre>4.931000</pre></td>
+<td bgcolor="#42b342"><pre>    1.89200[ +160.6%]</pre></td>
+</tr>
+<tr>
+<td>pread_u1k</td>
+<td><pre>0.565000</pre></td>
+<td bgcolor="#ffe1e1"><pre>    0.87300[  -54.5%]</pre></td>
+</tr>
+<tr>
+<td>pread_z100k</td>
+<td><pre>28.724000</pre></td>
+<td bgcolor="#33ad33"><pre>    9.80600[ +192.9%]</pre></td>
+</tr>
+<tr>
+<td>pread_z10k</td>
+<td><pre>2.869000</pre></td>
+<td bgcolor="#87cf87"><pre>    1.64100[  +74.8%]</pre></td>
+</tr>
+<tr>
+<td>pread_z1k</td>
+<td><pre>1.024000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>pread_zw100k</td>
+<td><pre>10.805000</pre></td>
+<td bgcolor="#ffffff"><pre>    9.83000[   +9.9%]</pre></td>
+</tr>
+<tr>
+<td>pthread_128</td>
+<td><pre>43.084090</pre></td>
+<td bgcolor="#94d494"><pre>   26.15478[  +64.7%]</pre></td>
+</tr>
+<tr>
+<td>pthread_32</td>
+<td><pre>43.835190</pre></td>
+<td bgcolor="#0d9e0d"><pre>   10.42719[ +320.4%]</pre></td>
+</tr>
+<tr>
+<td>pthread_512</td>
+<td><pre>34.429110</pre></td>
+<td bgcolor="#8cd18c"><pre>   20.15220[  +70.8%]</pre></td>
+</tr>
+<tr>
+<td>pthread_8</td>
+<td><pre>37.864380</pre></td>
+<td bgcolor="#079c07"><pre>    8.36450[ +352.7%]</pre></td>
+</tr>
+<tr>
+<td>pwrite_n100k</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>pwrite_n10k</td>
+<td><pre>0.571000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>pwrite_n1k</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>pwrite_t100k</td>
+<td><pre>30.001000</pre></td>
+<td bgcolor="#cdebcd"><pre>   22.88500[  +31.1%]</pre></td>
+</tr>
+<tr>
+<td>pwrite_t10k</td>
+<td><pre>3.893000</pre></td>
+<td bgcolor="#c8e9c8"><pre>    2.91800[  +33.4%]</pre></td>
+</tr>
+<tr>
+<td>pwrite_t1k</td>
+<td><pre>1.840000</pre></td>
+<td bgcolor="#63c063"><pre>    0.87000[ +111.5%]</pre></td>
+</tr>
+<tr>
+<td>pwrite_u100k</td>
+<td><pre>28.825000</pre></td>
+<td bgcolor="#cbeacb"><pre>   21.86300[  +31.8%]</pre></td>
+</tr>
+<tr>
+<td>pwrite_u10k</td>
+<td><pre>10.827000</pre></td>
+<td bgcolor="#19a319"><pre>    2.91900[ +270.9%]</pre></td>
+</tr>
+<tr>
+<td>pwrite_u1k</td>
+<td><pre>1.194310</pre></td>
+<td bgcolor="#c0e6c0"><pre>    0.87000[  +37.3%]</pre></td>
+</tr>
+<tr>
+<td>read_t100k</td>
+<td><pre>36.870000</pre></td>
+<td bgcolor="#2caa2c"><pre>   11.87600[ +210.5%]</pre></td>
+</tr>
+<tr>
+<td>read_t10k</td>
+<td><pre>1.849000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.89300[   -2.4%]</pre></td>
+</tr>
+<tr>
+<td>read_t1k</td>
+<td><pre>0.821000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.87200[   -6.2%]</pre></td>
+</tr>
+<tr>
+<td>read_u100k</td>
+<td><pre>12.852000</pre></td>
+<td bgcolor="#ffffff"><pre>   11.87600[   +8.2%]</pre></td>
+</tr>
+<tr>
+<td>read_u10k</td>
+<td><pre>4.627000</pre></td>
+<td bgcolor="#4bb74b"><pre>    1.88500[ +145.5%]</pre></td>
+</tr>
+<tr>
+<td>read_u1k</td>
+<td><pre>1.786000</pre></td>
+<td bgcolor="#68c268"><pre>    0.87100[ +105.1%]</pre></td>
+</tr>
+<tr>
+<td>read_z100k</td>
+<td><pre>27.953000</pre></td>
+<td bgcolor="#37af37"><pre>    9.83200[ +184.3%]</pre></td>
+</tr>
+<tr>
+<td>read_z10k</td>
+<td><pre>1.805000</pre></td>
+<td bgcolor="#66c266"><pre>    0.86900[ +107.7%]</pre></td>
+</tr>
+<tr>
+<td>read_z1k</td>
+<td><pre>0.817000</pre></td>
+<td bgcolor="#c8e9c8"><pre>    0.61400[  +33.1%]</pre></td>
+</tr>
+<tr>
+<td>read_zw100k</td>
+<td><pre>29.057000</pre></td>
+<td bgcolor="#32ad32"><pre>    9.83000[ +195.6%]</pre></td>
+</tr>
+<tr>
+<td>realpath_tmp</td>
+<td><pre>30.752000</pre></td>
+<td bgcolor="#37af37"><pre>   10.85100[ +183.4%]</pre></td>
+</tr>
+<tr>
+<td>realpath_usr</td>
+<td><pre>12.853000</pre></td>
+<td bgcolor="#ffffff"><pre>   11.87600[   +8.2%]</pre></td>
+</tr>
+<tr>
+<td>recurse</td>
+<td><pre>0.712610</pre></td>
+<td bgcolor="#ffffff"><pre>    0.69870[   +2.0%]</pre></td>
+</tr>
+<tr>
+<td>scasecmp_10</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>scasecmp_1k</td>
+<td><pre>1.807000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.89200[   -4.7%]</pre></td>
+</tr>
+<tr>
+<td>select_10</td>
+<td><pre>2.612000</pre></td>
+<td bgcolor="#32ad32"><pre>    0.88100[ +196.5%]</pre></td>
+</tr>
+<tr>
+<td>select_100</td>
+<td><pre>5.940000</pre></td>
+<td bgcolor="#ffffff"><pre>    5.74800[   +3.3%]</pre></td>
+</tr>
+<tr>
+<td>select_1000</td>
+<td><pre>56.881000</pre></td>
+<td bgcolor="#ffffff"><pre>   57.71500[   -1.5%]</pre></td>
+</tr>
+<tr>
+<td>select_w10</td>
+<td><pre>1.841000</pre></td>
+<td bgcolor="#65c165"><pre>    0.88300[ +108.5%]</pre></td>
+</tr>
+<tr>
+<td>select_w100</td>
+<td><pre>15.671000</pre></td>
+<td bgcolor="#3cb13c"><pre>    5.74500[ +172.8%]</pre></td>
+</tr>
+<tr>
+<td>select_w1000</td>
+<td><pre>55.864000</pre></td>
+<td bgcolor="#ffffff"><pre>   56.94700[   -1.9%]</pre></td>
+</tr>
+<tr>
+<td>semop</td>
+<td><pre>1.842000</pre></td>
+<td bgcolor="#62c062"><pre>    0.86800[ +112.2%]</pre></td>
+</tr>
+<tr>
+<td>setcontext</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#52b952"><pre>    0.87100[ +135.1%]</pre></td>
+</tr>
+<tr>
+<td>setsockopt</td>
+<td><pre>0.819000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>sigaction</td>
+<td><pre>0.825000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>siglongjmp</td>
+<td><pre>0.768000</pre></td>
+<td bgcolor="#079b07"><pre>    0.16940[ +353.4%]</pre></td>
+</tr>
+<tr>
+<td>signal</td>
+<td><pre>14.848000</pre></td>
+<td bgcolor="#ffffff"><pre>   13.92400[   +6.6%]</pre></td>
+</tr>
+<tr>
+<td>sigprocmask</td>
+<td><pre>6.144000</pre></td>
+<td bgcolor="#27a827"><pre>    1.89100[ +224.9%]</pre></td>
+</tr>
+<tr>
+<td>socket_i</td>
+<td><pre>1.679200</pre></td>
+<td bgcolor="#f9fcf9"><pre>    1.48739[  +12.9%]</pre></td>
+</tr>
+<tr>
+<td>socket_u</td>
+<td><pre>1.362000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.31940[   +3.2%]</pre></td>
+</tr>
+<tr>
+<td>socketpair</td>
+<td><pre>2.505150</pre></td>
+<td bgcolor="#ffffff"><pre>    2.43679[   +2.8%]</pre></td>
+</tr>
+<tr>
+<td>stat_tmp</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#51b951"><pre>    0.86800[ +135.9%]</pre></td>
+</tr>
+<tr>
+<td>stat_usr</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#51b951"><pre>    0.86900[ +135.7%]</pre></td>
+</tr>
+<tr>
+<td>strchr_10</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>strchr_1k</td>
+<td><pre>1.847000</pre></td>
+<td bgcolor="#62c062"><pre>    0.87000[ +112.3%]</pre></td>
+</tr>
+<tr>
+<td>strcmp_10</td>
+<td><pre>0.076800</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>strcmp_1k</td>
+<td><pre>0.831000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.86800[   -4.5%]</pre></td>
+</tr>
+<tr>
+<td>strcpy_10</td>
+<td><pre>0.006430</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>strcpy_1k</td>
+<td><pre>0.053810</pre></td>
+<td bgcolor="#ff0000"><pre>    0.86100[-1500.1%]</pre></td>
+</tr>
+<tr>
+<td>strftime</td>
+<td><pre>12.854000</pre></td>
+<td bgcolor="#43b443"><pre>    4.96600[ +158.8%]</pre></td>
+</tr>
+<tr>
+<td>strlen_10</td>
+<td><pre>0.025650</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>strlen_1k</td>
+<td><pre>0.770000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>strtol</td>
+<td><pre>0.082300</pre></td>
+<td bgcolor="#ffffff"><pre>    0.08660[   -5.2%]</pre></td>
+</tr>
+<tr>
+<td>system</td>
+<td><pre>2293.516000</pre></td>
+<td bgcolor="#009900"><pre>  454.76000[ +404.3%]</pre></td>
+</tr>
+<tr>
+<td>time</td>
+<td>missing</td>
+<td>not computed</td>
+<tr>
+<td>times</td>
+<td><pre>4.625000</pre></td>
+<td bgcolor="#edf7ed"><pre>    3.93900[  +17.4%]</pre></td>
+</tr>
+<tr>
+<td>unmap_a128k</td>
+<td><pre>1.846000</pre></td>
+<td bgcolor="#63c063"><pre>    0.87100[ +111.9%]</pre></td>
+</tr>
+<tr>
+<td>unmap_a8k</td>
+<td><pre>1.686000</pre></td>
+<td bgcolor="#73c773"><pre>    0.87200[  +93.3%]</pre></td>
+</tr>
+<tr>
+<td>unmap_ra128k</td>
+<td><pre>8.960000</pre></td>
+<td bgcolor="#aaddaa"><pre>    5.98900[  +49.6%]</pre></td>
+</tr>
+<tr>
+<td>unmap_ra8k</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.89200[   +8.2%]</pre></td>
+</tr>
+<tr>
+<td>unmap_rt128k</td>
+<td><pre>18.944000</pre></td>
+<td bgcolor="#74c774"><pre>    9.83100[  +92.7%]</pre></td>
+</tr>
+<tr>
+<td>unmap_rt8k</td>
+<td><pre>0.787000</pre></td>
+<td bgcolor="#ffa9a9"><pre>    1.89500[ -140.8%]</pre></td>
+</tr>
+<tr>
+<td>unmap_ru128k</td>
+<td><pre>17.720000</pre></td>
+<td bgcolor="#6cc46c"><pre>    8.80600[ +101.2%]</pre></td>
+</tr>
+<tr>
+<td>unmap_ru8k</td>
+<td><pre>2.865000</pre></td>
+<td bgcolor="#a7dca7"><pre>    1.89200[  +51.4%]</pre></td>
+</tr>
+<tr>
+<td>unmap_rz128k</td>
+<td><pre>2.868000</pre></td>
+<td bgcolor="#ffbebe"><pre>    5.99000[ -108.9%]</pre></td>
+</tr>
+<tr>
+<td>unmap_rz8k</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#ffffff"><pre>    1.89300[   +8.2%]</pre></td>
+</tr>
+<tr>
+<td>unmap_t128k</td>
+<td><pre>2.048000</pre></td>
+<td bgcolor="#52b952"><pre>    0.87100[ +135.1%]</pre></td>
+</tr>
+<tr>
+<td>unmap_t8k</td>
+<td><pre>1.845000</pre></td>
+<td bgcolor="#63c063"><pre>    0.87100[ +111.8%]</pre></td>
+</tr>
+<tr>
+<td>unmap_u128k</td>
+<td><pre>0.820000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.86900[   -6.0%]</pre></td>
+</tr>
+<tr>
+<td>unmap_u8k</td>
+<td><pre>0.818000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.86800[   -6.1%]</pre></td>
+</tr>
+<tr>
+<td>unmap_wa128k</td>
+<td><pre>9.779000</pre></td>
+<td bgcolor="#fffefe"><pre>   10.85700[  -11.0%]</pre></td>
+</tr>
+<tr>
+<td>unmap_wa8k</td>
+<td><pre>1.798000</pre></td>
+<td bgcolor="#ffdcdc"><pre>    2.91800[  -62.3%]</pre></td>
+</tr>
+<tr>
+<td>unmap_wt128k</td>
+<td><pre>10.805000</pre></td>
+<td bgcolor="#ffffff"><pre>   11.86700[   -9.8%]</pre></td>
+</tr>
+<tr>
+<td>unmap_wt8k</td>
+<td><pre>1.844000</pre></td>
+<td bgcolor="#ffdfdf"><pre>    2.92000[  -58.4%]</pre></td>
+</tr>
+<tr>
+<td>unmap_wu128k</td>
+<td><pre>9.984000</pre></td>
+<td bgcolor="#fff9f9"><pre>   11.87600[  -19.0%]</pre></td>
+</tr>
+<tr>
+<td>unmap_wu8k</td>
+<td><pre>1.826000</pre></td>
+<td bgcolor="#ffdede"><pre>    2.91700[  -59.7%]</pre></td>
+</tr>
+<tr>
+<td>unmap_wz128k</td>
+<td><pre>9.880000</pre></td>
+<td bgcolor="#fff8f8"><pre>   11.87800[  -20.2%]</pre></td>
+</tr>
+<tr>
+<td>unmap_wz8k</td>
+<td><pre>5.685000</pre></td>
+<td bgcolor="#72c672"><pre>    2.91900[  +94.8%]</pre></td>
+</tr>
+<tr>
+<td>unmap_z128k</td>
+<td><pre>1.782000</pre></td>
+<td bgcolor="#68c268"><pre>    0.86800[ +105.3%]</pre></td>
+</tr>
+<tr>
+<td>unmap_z8k</td>
+<td><pre>0.821000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.87000[   -6.0%]</pre></td>
+</tr>
+<tr>
+<td>write_n100k</td>
+<td><pre>0.823000</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>write_n10k</td>
+<td><pre>0.205850</pre></td>
+<td bgcolor="#ff0000">ERRORS</td>
+</tr>
+<tr>
+<td>write_n1k</td>
+<td bgcolor="#ff0000">ERRORS</td>
+<td>not computed</td>
+<tr>
+<td>write_t100k</td>
+<td><pre>28.727000</pre></td>
+<td bgcolor="#d9efd9"><pre>   22.88600[  +25.5%]</pre></td>
+</tr>
+<tr>
+<td>write_t10k</td>
+<td><pre>10.765000</pre></td>
+<td bgcolor="#19a319"><pre>    2.91800[ +268.9%]</pre></td>
+</tr>
+<tr>
+<td>write_t1k</td>
+<td><pre>3.631000</pre></td>
+<td bgcolor="#0e9e0e"><pre>    0.87000[ +317.4%]</pre></td>
+</tr>
+<tr>
+<td>write_u100k</td>
+<td><pre>84.020000</pre></td>
+<td bgcolor="#15a115"><pre>   21.86600[ +284.2%]</pre></td>
+</tr>
+<tr>
+<td>write_u10k</td>
+<td><pre>10.803000</pre></td>
+<td bgcolor="#19a319"><pre>    2.91700[ +270.3%]</pre></td>
+</tr>
+<tr>
+<td>write_u1k</td>
+<td><pre>3.894000</pre></td>
+<td bgcolor="#089c08"><pre>    0.86700[ +349.1%]</pre></td>
+</tr>
+<tr>
+<td>writev_n100k</td>
+<td><pre>0.778000</pre></td>
+<td bgcolor="#fffdfd"><pre>    0.86800[  -11.6%]</pre></td>
+</tr>
+<tr>
+<td>writev_n10k</td>
+<td><pre>0.824000</pre></td>
+<td bgcolor="#ffffff"><pre>    0.86800[   -5.3%]</pre></td>
+</tr>
+<tr>
+<td>writev_n1k</td>
+<td><pre>0.821000</pre></td>
+<td bgcolor="#c7e8c7"><pre>    0.61300[  +33.9%]</pre></td>
+</tr>
+<tr>
+<td>writev_t100k</td>
+<td><pre>291.072000</pre></td>
+<td bgcolor="#d0ecd0"><pre>  224.86700[  +29.4%]</pre></td>
+</tr>
+<tr>
+<td>writev_t10k</td>
+<td><pre>32.783000</pre></td>
+<td bgcolor="#b5e1b5"><pre>   22.86000[  +43.4%]</pre></td>
+</tr>
+<tr>
+<td>writev_t1k</td>
+<td><pre>4.864000</pre></td>
+<td bgcolor="#cbeacb"><pre>    3.68700[  +31.9%]</pre></td>
+</tr>
+<tr>
+<td>writev_u100k</td>
+<td><pre>289.844000</pre></td>
+<td bgcolor="#c3e7c3"><pre>  213.86200[  +35.5%]</pre></td>
+</tr>
+<tr>
+<td>writev_u10k</td>
+<td><pre>33.842000</pre></td>
+<td bgcolor="#addead"><pre>   22.88500[  +47.9%]</pre></td>
+</tr>
+<tr>
+<td>writev_u1k</td>
+<td><pre>11.792000</pre></td>
+<td bgcolor="#28a928"><pre>    3.68500[ +220.0%]</pre></td>
+</tr>
+</tbody></table></body></html>
