@@ -1,39 +1,207 @@
-monitor DEBUG 2018-03-20 04:28:28,921 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229540000000L]
-monitor DEBUG 2018-03-20 04:28:30,924 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229550000000L]
-monitor DEBUG 2018-03-20 04:28:31,003 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:30 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:32,926 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229600000000L]
-monitor DEBUG 2018-03-20 04:28:32,978 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:32 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:34,930 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229610000000L]
-monitor DEBUG 2018-03-20 04:28:34,969 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:34 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:36,934 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229630000000L]
-monitor DEBUG 2018-03-20 04:28:36,974 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:36 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:38,936 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229650000000L]
-monitor DEBUG 2018-03-20 04:28:38,966 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:38 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:40,953 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229660000000L]
-monitor DEBUG 2018-03-20 04:28:40,980 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:40 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:42,965 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229680000000L]
-monitor DEBUG 2018-03-20 04:28:43,006 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:42 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:44,950 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229690000000L]
-monitor DEBUG 2018-03-20 04:28:45,017 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:44 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:46,966 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229710000000L]
-monitor DEBUG 2018-03-20 04:28:46,995 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:46 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:48,962 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229740000000L]
-monitor DEBUG 2018-03-20 04:28:49,010 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:48 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:50,965 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229760000000L]
-monitor DEBUG 2018-03-20 04:28:51,011 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:50 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:52,980 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229780000000L]
-monitor DEBUG 2018-03-20 04:28:53,017 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:52 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:54,982 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229790000000L]
-monitor DEBUG 2018-03-20 04:28:55,023 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:54 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:56,968 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229800000000L]
-monitor DEBUG 2018-03-20 04:28:57,020 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:56 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:28:58,986 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229830000000L]
-monitor DEBUG 2018-03-20 04:28:59,014 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:28:58 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:29:00,997 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229830000000L]
-monitor DEBUG 2018-03-20 04:29:01,037 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:29:01 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:29:02,999 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229850000000L]
-monitor DEBUG 2018-03-20 04:29:03,041 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:29:03 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:29:05,005 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229870000000L]
-monitor DEBUG 2018-03-20 04:29:05,047 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:29:05 b209afc4-0687-4bcf-9a90-ff824d000001
-monitor DEBUG 2018-03-20 04:29:06,997 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 229880000000L]
-monitor DEBUG 2018-03-20 04:29:07,051 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-20 04:29:07 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:14,792 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3659860000000L]
+monitor DEBUG 2018-03-24 06:29:16,806 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3659910000000L]
+monitor DEBUG 2018-03-24 06:29:16,851 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:16 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:18,835 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3659970000000L]
+monitor DEBUG 2018-03-24 06:29:18,865 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:18 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:20,829 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660020000000L]
+monitor DEBUG 2018-03-24 06:29:20,902 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:20 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:22,826 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660090000000L]
+monitor DEBUG 2018-03-24 06:29:22,865 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:22 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:24,836 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660160000000L]
+monitor DEBUG 2018-03-24 06:29:24,874 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:24 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:26,842 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660200000000L]
+monitor DEBUG 2018-03-24 06:29:26,878 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:26 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:28,848 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660260000000L]
+monitor DEBUG 2018-03-24 06:29:28,898 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:28 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:30,836 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660350000000L]
+monitor DEBUG 2018-03-24 06:29:30,895 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:30 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:32,855 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660390000000L]
+monitor DEBUG 2018-03-24 06:29:32,883 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:32 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:34,842 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660460000000L]
+monitor DEBUG 2018-03-24 06:29:34,915 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:34 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:36,890 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:36 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:36,891 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660540000000L]
+monitor DEBUG 2018-03-24 06:29:38,902 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660590000000L]
+monitor DEBUG 2018-03-24 06:29:38,938 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:38 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:40,912 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660660000000L]
+monitor DEBUG 2018-03-24 06:29:40,959 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:40 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:42,880 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660720000000L]
+monitor DEBUG 2018-03-24 06:29:43,007 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:42 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:44,865 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660780000000L]
+monitor DEBUG 2018-03-24 06:29:44,925 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:44 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:46,876 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660870000000L]
+monitor DEBUG 2018-03-24 06:29:46,907 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:46 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:48,877 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3660940000000L]
+monitor DEBUG 2018-03-24 06:29:48,927 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:48 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:50,893 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661000000000L]
+monitor DEBUG 2018-03-24 06:29:50,933 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:50 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:52,894 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661060000000L]
+monitor DEBUG 2018-03-24 06:29:52,938 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:52 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:54,887 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661130000000L]
+monitor DEBUG 2018-03-24 06:29:54,929 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:54 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:56,895 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661180000000L]
+monitor DEBUG 2018-03-24 06:29:56,932 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:56 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:29:58,898 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661230000000L]
+monitor DEBUG 2018-03-24 06:29:58,939 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:29:58 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:00,914 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661290000000L]
+monitor DEBUG 2018-03-24 06:30:00,943 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:00 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:02,923 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661400000000L]
+monitor DEBUG 2018-03-24 06:30:02,959 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:02 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:04,908 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661720000000L]
+monitor DEBUG 2018-03-24 06:30:05,005 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:04 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:06,904 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661790000000L]
+monitor DEBUG 2018-03-24 06:30:06,952 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:06 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:08,926 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661860000000L]
+monitor DEBUG 2018-03-24 06:30:08,952 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:08 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:10,905 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3661930000000L]
+monitor DEBUG 2018-03-24 06:30:10,985 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:10 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:12,942 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:12 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:12,947 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3662010000000L]
+monitor DEBUG 2018-03-24 06:30:14,941 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3662070000000L]
+monitor DEBUG 2018-03-24 06:30:14,985 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:14 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:16,941 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3663200000000L]
+monitor DEBUG 2018-03-24 06:30:16,994 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:16 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:18,930 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3665280000000L]
+monitor DEBUG 2018-03-24 06:30:18,986 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:18 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:20,948 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3667340000000L]
+monitor DEBUG 2018-03-24 06:30:20,976 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:20 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:22,987 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3669440000000L]
+monitor DEBUG 2018-03-24 06:30:23,012 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:22 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:25,054 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:25 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:25,074 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3671600000000L]
+monitor DEBUG 2018-03-24 06:30:26,996 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3673550000000L]
+monitor DEBUG 2018-03-24 06:30:27,124 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:27 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:28,952 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3675540000000L]
+monitor DEBUG 2018-03-24 06:30:29,054 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:29 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:30,965 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3677590000000L]
+monitor DEBUG 2018-03-24 06:30:31,006 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:30 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:32,980 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3679650000000L]
+monitor DEBUG 2018-03-24 06:30:33,006 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:32 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:34,972 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3681690000000L]
+monitor DEBUG 2018-03-24 06:30:35,035 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:35 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:36,967 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3683720000000L]
+monitor DEBUG 2018-03-24 06:30:37,020 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:36 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:38,985 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3686040000000L]
+monitor DEBUG 2018-03-24 06:30:39,016 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:38 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:40,975 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3688340000000L]
+monitor DEBUG 2018-03-24 06:30:41,035 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:41 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:42,997 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3690480000000L]
+monitor DEBUG 2018-03-24 06:30:43,026 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:42 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:44,984 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3692550000000L]
+monitor DEBUG 2018-03-24 06:30:45,068 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:45 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:47,028 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:47 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:47,072 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3694840000000L]
+monitor DEBUG 2018-03-24 06:30:49,045 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3696860000000L]
+monitor DEBUG 2018-03-24 06:30:49,116 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:49 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:51,011 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3699020000000L]
+monitor DEBUG 2018-03-24 06:30:51,085 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:51 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:53,004 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3701160000000L]
+monitor DEBUG 2018-03-24 06:30:53,050 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:53 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:55,009 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3703410000000L]
+monitor DEBUG 2018-03-24 06:30:55,044 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:55 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:57,001 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3705520000000L]
+monitor DEBUG 2018-03-24 06:30:57,052 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:57 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:30:59,036 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3707600000000L]
+monitor DEBUG 2018-03-24 06:30:59,037 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:30:59 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:01,013 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3709630000000L]
+monitor DEBUG 2018-03-24 06:31:01,085 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:01 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:03,017 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3711680000000L]
+monitor DEBUG 2018-03-24 06:31:03,055 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:03 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:05,028 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3713740000000L]
+monitor DEBUG 2018-03-24 06:31:05,064 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:05 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:07,028 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3715780000000L]
+monitor DEBUG 2018-03-24 06:31:07,073 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:07 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:09,072 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:09 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:09,074 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3717860000000L]
+monitor DEBUG 2018-03-24 06:31:11,067 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3719870000000L]
+monitor DEBUG 2018-03-24 06:31:11,106 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:11 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:13,051 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3721900000000L]
+monitor DEBUG 2018-03-24 06:31:13,115 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:13 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:15,043 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3723930000000L]
+monitor DEBUG 2018-03-24 06:31:15,088 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:15 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:17,065 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3725990000000L]
+monitor DEBUG 2018-03-24 06:31:17,099 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:17 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:19,048 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3728010000000L]
+monitor DEBUG 2018-03-24 06:31:19,118 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:19 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:21,085 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3730070000000L]
+monitor DEBUG 2018-03-24 06:31:21,098 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:21 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:23,078 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3732140000000L]
+monitor DEBUG 2018-03-24 06:31:23,137 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:23 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:25,063 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3734160000000L]
+monitor DEBUG 2018-03-24 06:31:25,127 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:25 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:27,078 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3736220000000L]
+monitor DEBUG 2018-03-24 06:31:27,097 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:27 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:29,080 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3738280000000L]
+monitor DEBUG 2018-03-24 06:31:29,126 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:29 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:31,100 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3740340000000L]
+monitor DEBUG 2018-03-24 06:31:31,131 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:31 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:33,128 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3742400000000L]
+monitor DEBUG 2018-03-24 06:31:33,153 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:33 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:35,097 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3744410000000L]
+monitor DEBUG 2018-03-24 06:31:35,223 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:35 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:37,087 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3746430000000L]
+monitor DEBUG 2018-03-24 06:31:37,142 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:37 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:39,089 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3748460000000L]
+monitor DEBUG 2018-03-24 06:31:39,122 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:39 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:41,100 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3750500000000L]
+monitor DEBUG 2018-03-24 06:31:41,131 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:41 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:43,093 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3752520000000L]
+monitor DEBUG 2018-03-24 06:31:43,143 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:43 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:45,136 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:45 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:45,137 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3754610000000L]
+monitor DEBUG 2018-03-24 06:31:47,109 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3756640000000L]
+monitor DEBUG 2018-03-24 06:31:47,183 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:47 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:49,107 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3758930000000L]
+monitor DEBUG 2018-03-24 06:31:49,156 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:49 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:51,116 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3761320000000L]
+monitor DEBUG 2018-03-24 06:31:51,153 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:51 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:53,134 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3763710000000L]
+monitor DEBUG 2018-03-24 06:31:53,162 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:53 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:55,144 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3766010000000L]
+monitor DEBUG 2018-03-24 06:31:55,179 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:55 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:57,169 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3767470000000L]
+monitor DEBUG 2018-03-24 06:31:57,249 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:57 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:31:59,153 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3767690000000L]
+monitor DEBUG 2018-03-24 06:31:59,236 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:31:59 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:01,160 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3767750000000L]
+monitor DEBUG 2018-03-24 06:32:01,200 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:01 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:03,159 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3767830000000L]
+monitor DEBUG 2018-03-24 06:32:03,202 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:03 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:05,173 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3767910000000L]
+monitor DEBUG 2018-03-24 06:32:05,210 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:05 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:07,159 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3767970000000L]
+monitor DEBUG 2018-03-24 06:32:07,205 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:07 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:09,171 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768030000000L]
+monitor DEBUG 2018-03-24 06:32:09,214 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:09 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:11,156 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768100000000L]
+monitor DEBUG 2018-03-24 06:32:11,215 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:11 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:13,153 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768170000000L]
+monitor DEBUG 2018-03-24 06:32:13,202 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:13 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:15,179 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768240000000L]
+monitor DEBUG 2018-03-24 06:32:15,202 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:15 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:17,192 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768320000000L]
+monitor DEBUG 2018-03-24 06:32:17,232 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:17 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:19,230 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:19 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:19,281 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768600000000L]
+monitor DEBUG 2018-03-24 06:32:21,266 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768650000000L]
+monitor DEBUG 2018-03-24 06:32:21,322 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:21 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:23,208 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768720000000L]
+monitor DEBUG 2018-03-24 06:32:23,319 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:23 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:25,198 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768800000000L]
+monitor DEBUG 2018-03-24 06:32:25,250 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:25 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:27,201 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3768870000000L]
+monitor DEBUG 2018-03-24 06:32:27,244 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:27 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:29,211 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3769220000000L]
+monitor DEBUG 2018-03-24 06:32:29,252 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:29 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:31,221 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3769300000000L]
+monitor DEBUG 2018-03-24 06:32:31,265 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:31 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:33,229 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3769360000000L]
+monitor DEBUG 2018-03-24 06:32:33,270 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:33 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:35,207 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3769430000000L]
+monitor DEBUG 2018-03-24 06:32:35,277 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:35 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:37,240 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:37 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:37,243 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3769500000000L]
+monitor DEBUG 2018-03-24 06:32:39,221 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3769530000000L]
+monitor DEBUG 2018-03-24 06:32:39,294 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:39 b209afc4-0687-4bcf-9a90-ff824d000001
+monitor DEBUG 2018-03-24 06:32:41,242 [code/cloud_monitor_server-result-in-row.py:96] [1, 2097152L, 2097152L, 1, 3769600000000L]
+monitor DEBUG 2018-03-24 06:32:41,287 [code/cloud_monitor_server-result-in-row.py:288] OK 2018-03-24 06:32:41 b209afc4-0687-4bcf-9a90-ff824d000001

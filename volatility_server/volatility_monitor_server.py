@@ -6,6 +6,7 @@ import time,datetime
 import logging
 # import threadpool
 import threading
+import Queue
 
 from Registry import Registry
 from volatility_monitor_settings import *
@@ -33,17 +34,22 @@ registry_dict = {} # 单注册表字典
 registries = {} # 全注册表字典，键为各文件名
 all_registries = {} # 全虚拟节点注册表字典，键为虚拟机id
 
+# 队列用于一生产者多消费者的情况
+q = Queue.Queue(maxsize = 5)
+
+
 
 class linux_vmi(threading.Thread):
-    def __init__(self, uuid, command):
+    def __init__(self, uuid, command, memory_name):
         super(linux_vmi, self).__init__()
         self.daemon = True
         self.uuid = uuid
         self.command = command
+        self.memory_name = memory_name
         
     def run(self):
         (win, name, profile, allocation) = profiles[self.uuid]
-        memory = 'memory/' + name + '.dd'
+        memory = 'memory/%s.dd' % (self.memory_name)
         config = libapi.get_config(profile, memory)
 
         if self.command == 'linux_lsof':
@@ -71,26 +77,26 @@ class linux_vmi(threading.Thread):
             logger.debug(ctime + ' ' + self.uuid + ' ' + self.command)
         elif self.command == 'linux_ifconfig':
             data = libapi.get_json(config, taskmods.linux_ifconfig)
-            ctime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+            ctime = self.memory_name.split('_')[1]
             table = 'linux_ifconfig'
             interface_index = data['columns'].index('Interface')
             ip_index = data['columns'].index('IP')
             mac_index = data['columns'].index('MAC')
             promiscuous_index = data['columns'].index('Promiscuous')
             for row in data['rows']:         
-                ret = db.select(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' and `Mode`='%s'" % (self.uuid, row[interface_index], row[ip_index], row[mac_index], row[promiscuous_index]))
-                if len(ret) == 0:
-                    db.insert(table,uuid = self.uuid,
-                                        Interface = row[interface_index],
-                                        Ip = row[ip_index],
-                                        Mac = row[mac_index],
-                                        Mode = row[promiscuous_index],
-                                        time = ctime)
-                else:
-                    db.update(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' and `Mode`='%s'" % (self.uuid, row[interface_index], row[ip_index], row[mac_index], row[promiscuous_index]),
-                                        time = ctime)
+                # ret = db.select(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' and `Mode`='%s'" % (self.uuid, row[interface_index], row[ip_index], row[mac_index], row[promiscuous_index]))
+                # if len(ret) == 0:
+                db.insert(table,uuid = self.uuid,
+                                    Interface = row[interface_index],
+                                    Ip = row[ip_index],
+                                    Mac = row[mac_index],
+                                    Mode = row[promiscuous_index],
+                                    time = ctime)
+                # else:
+                    # db.update(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' and `Mode`='%s'" % (self.uuid, row[interface_index], row[ip_index], row[mac_index], row[promiscuous_index]),
+                                        # time = ctime)
             # 删除之前的记录
-            db.delete(table,where="`time`<>'%s'" % ctime)
+            # db.delete(table,where="`time`<>'%s'" % ctime)
             logger.debug(ctime + ' ' + self.uuid + ' ' + self.command)
  
 
@@ -138,16 +144,17 @@ class windows_vmi(threading.Thread):
 
 
 class linux_arp(threading.Thread):
-    def __init__(self, uuid):
+    def __init__(self, uuid ,memory_name):
         super(linux_arp, self).__init__()
         self.daemon = True
         self.uuid = uuid
+        self.memory_name = memory_name
 
     def run(self):
         (win, name, profile, allocation) = profiles[self.uuid]
-        cmd = 'python vol.py -f memory/%s.dd --profile=%s linux_arp' % (name, profile)
+        cmd = 'python vol.py -f memory/%s.dd --profile=%s linux_arp' % (self.memory_name, profile)
         res = os.popen(cmd).read()
-        ctime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+        ctime = self.memory_name.split('_')[1]
         table = 'linux_arp'
         arp_list = res.split('\n')
         for arp in arp_list:
@@ -161,32 +168,33 @@ class linux_arp(threading.Thread):
             cInterface = arplist[5]
             if cIp.find(':') != -1 :
                 continue        
-            ret = db.select(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' " % (self.uuid, cInterface, cIp, cMac))
-            if len(ret) == 0:
-                db.insert(table,uuid = self.uuid,
-                                    Interface = cInterface,
-                                    Ip = cIp,
-                                    Mac = cMac,
-                                    time = ctime)
-            else:
-                db.update(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s'" % (self.uuid, cInterface, cIp, cMac),
-                                    time = ctime)
+            # ret = db.select(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' " % (self.uuid, cInterface, cIp, cMac))
+            # if len(ret) == 0:
+            db.insert(table,uuid = self.uuid,
+                                Interface = cInterface,
+                                Ip = cIp,
+                                Mac = cMac,
+                                time = ctime)
+            # else:
+                # db.update(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s'" % (self.uuid, cInterface, cIp, cMac),
+                                   #  time = ctime)
         # 删除之前的记录
-        db.delete(table,where="`time`<>'%s'" % ctime)
+        # db.delete(table,where="`time`<>'%s'" % ctime)
         logger.debug(ctime + ' ' + self.uuid + ' ' + 'linux_arp')
 
 
 class linux_netstat(threading.Thread):
-    def __init__(self, uuid):
+    def __init__(self, uuid, memory_name):
         super(linux_netstat, self).__init__()
         self.daemon = True
         self.uuid = uuid
+        self.memory_name = memory_name
 
     def run(self):
         (win, name, profile, allocation) = profiles[self.uuid]
-        cmd = 'python vol.py -f memory/%s.dd --profile=%s linux_netstat -U' % (name, profile)
+        cmd = 'python vol.py -f memory/%s.dd --profile=%s linux_netstat -U' % (self.memory_name, profile)
         res = os.popen(cmd).read()
-        ctime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+        ctime = self.memory_name.split('_')[1]
         table = 'linux_netstat'
         netstat_list = res.split('\n')
         for netstat in netstat_list:
@@ -198,20 +206,20 @@ class linux_netstat(threading.Thread):
             cForeignaddress = netstat[32:54]
             cState = netstat[55:68].strip()
             cProcess = netstat[70:].strip()
-            ret = db.select(table, where="`uuid`='%s' and `Proto`='%s' and `Localaddress`='%s' and `Foreignaddress`='%s' and `State`='%s' and `Process`='%s'" % (self.uuid, cProto, cLocaladdress, cForeignaddress, cState, cProcess))
-            if len(ret) == 0:
-                db.insert(table,uuid = self.uuid,
-                                    Proto = cProto,
-                                    Localaddress = cLocaladdress,
-                                    Foreignaddress = cForeignaddress,
-                                    State = cState,
-                                    Process = cProcess,
-                                    time = ctime)
-            else:
-                db.update(table, where="`uuid`='%s' and `Proto`='%s' and `Localaddress`='%s' and `Foreignaddress`='%s' and `State`='%s' and `Process`='%s'" % (self.uuid, cProto, cLocaladdress, cForeignaddress, cState, cProcess),
-                                    time = ctime)
+            # ret = db.select(table, where="`uuid`='%s' and `Proto`='%s' and `Localaddress`='%s' and `Foreignaddress`='%s' and `State`='%s' and `Process`='%s'" % (self.uuid, cProto, cLocaladdress, cForeignaddress, cState, cProcess))
+            # if len(ret) == 0:
+            db.insert(table,uuid = self.uuid,
+                                Proto = cProto,
+                                Localaddress = cLocaladdress,
+                                Foreignaddress = cForeignaddress,
+                                State = cState,
+                                Process = cProcess,
+                                time = ctime)
+            # else:
+              #   db.update(table, where="`uuid`='%s' and `Proto`='%s' and `Localaddress`='%s' and `Foreignaddress`='%s' and `State`='%s' and `Process`='%s'" % (self.uuid, cProto, cLocaladdress, cForeignaddress, cState, cProcess),
+                                     # time = ctime)
         # 删除之前的记录
-        db.delete(table,where="`time`<>'%s'" % ctime)
+        # db.delete(table,where="`time`<>'%s'" % ctime)
         logger.debug(ctime + ' ' + self.uuid + ' ' + 'linux_netstat')
 
 
@@ -402,14 +410,15 @@ def windows_file_change(uuid, path, Offset, Access):
 
 
 class dump_memory(threading.Thread):
-    def __init__(self, uuid):
+    def __init__(self, uuid, memory_name):
         super(dump_memory, self).__init__()
         self.daemon = True
         self.uuid = uuid
+        self.memory_name = memory_name
 
     def run(self):
         (win, name, profile, allocation) = profiles[self.uuid]
-        cmd = 'virsh dump %s memory/%s.dd --memory-only --live' % (name, name)
+        cmd = 'virsh dump %s memory/%s.dd --memory-only --live' % (name, self.memory_name)
         os.popen(cmd)
 
 
@@ -520,50 +529,95 @@ def compare(uuid, registry, old_dict, new_dict):
                             )
 
 
+
+class write_thread(threading.Thread):
+    global q
+    def __init__(self, uuid):
+        super(write_thread, self).__init__()
+        self.daemon = True
+        self.uuid = uuid
+
+    def run(self):
+        while True:
+            (win, name, profile, allocation) = profiles[self.uuid]
+            logger.debug(q.qsize())
+            if q.qsize() < 5:
+                ctime = time.strftime('%Y-%m-%d-%H:%M:%S', time.localtime())
+                memory_name = '%s_%s' % (name, ctime)
+                t = dump_memory(self.uuid, memory_name)
+                t.setDaemon(True)
+                t.start()
+                t.join()
+                q.put(memory_name)
+                logger.debug(memory_name)
+            else:
+                time.sleep(2)
+            time.sleep(2)
+
+
+class read_thread(threading.Thread):
+    global q
+    def __init__(self, uuid):
+        super(read_thread, self).__init__()
+        self.daemon = True
+        self.uuid = uuid
+        
+    def run(self):
+        while True:
+            (win, name, profile, allocation) = profiles[self.uuid]
+            if q.empty():
+                time.sleep(2)
+            else:
+                memory_name = q.get()
+                threads = []
+                if win == 0:
+                    t = linux_arp(self.uuid, memory_name)
+                    threads.append(t)
+                    # linux 网卡信息
+                    t = linux_vmi(self.uuid, 'linux_ifconfig', memory_name)
+                    threads.append(t)
+                    # linux lsof记录
+                    # t = linux_vmi(self.uuid, 'linux_lsof')
+                    # read_threads.append(t)
+                    # linux netstat记录
+                    t = linux_netstat(self.uuid, memory_name)
+                    threads.append(t)
+                if win == 1:
+                    # windows注册表
+                    t = registry(uuid)
+                    threads.append(t)
+                    # windows网络连接
+                    t = windows_vmi(uuid, 'netscan')
+                    threads.append(t)
+            
+                for t in threads:
+                    t.setDaemon(True)
+                    t.start()
+
+                for t in threads:
+                    t.join()
+
+                cmd = 'rm memory/%s.dd' % (memory_name)
+                os.popen(cmd)
+                logger.debug(cmd)
+                time.sleep(2)
+
+
 def main():
     logger.debug("============[OK] server start up!=============")
-    while True:
-        # 内存监控
-        read_threads = []
-        write_threads = []
-        for (uuid,(win,name,profile,allocation)) in profiles.items():
-            # dump 内存
-            t = dump_memory(uuid)
-            write_threads.append(t)
-        for (uuid,(win,name,profile,allocation)) in profiles.items():
-            if win == 0:
-                # linux arp信息
-                t = linux_arp(uuid)
-                read_threads.append(t)
-                # linux 网卡信息
-                t = linux_vmi(uuid, 'linux_ifconfig')
-                read_threads.append(t)
-                # linux lsof记录
-                # t = linux_vmi(uuid, 'linux_lsof')
-                # read_threads.append(t)
-                # linux netstat记录
-                t = linux_netstat(uuid)
-                read_threads.append(t)
-            if win == 1:
-                # windows注册表
-                t = registry(uuid)
-                read_threads.append(t)
-                # windows网络连接
-                t = windows_vmi(uuid, 'netscan')
-                read_threads.append(t)
+    threads = []
+    for (uuid,(win,name,profile,allocation)) in profiles.items():
+        t = write_thread(uuid)
+        threads.append(t)
+        t = read_thread(uuid)
+        threads.append(t)
 
-        for t in write_threads:
+        for t in threads:
             t.setDaemon(True)
             t.start()
 
-        for t in write_threads:
-            t.join()
 
-        for t in read_threads:
-            t.setDaemon(True)
-            t.start()
-
-        for t in read_threads:
+        for t in threads:
             t.join()
     '''
         # 内存文件监控，目前由挂载文件监控替代
