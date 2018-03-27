@@ -52,8 +52,7 @@ main(
     }
 
     /* pause the vm for consistent memory access */
-    vmi_pause_vm(vmi);
-
+   /*  vmi_pause_vm(vmi);*/
     switch(vmi_get_ostype(vmi))
     {
     case VMI_OS_LINUX:
@@ -134,10 +133,10 @@ main(
 
 error_exit:
     /* resume the vm */
-    vmi_resume_vm(vmi);
+   /* vmi_resume_vm(vmi);*/
 
     /* cleanup any memory associated with the libvmi instance */
-    vmi_destroy(vmi);
+   /* vmi_destroy(vmi);*/
 
     return 0;
 }

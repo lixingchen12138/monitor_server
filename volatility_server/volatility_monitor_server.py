@@ -120,9 +120,9 @@ class linux_arp(threading.Thread):
         logger.debug(ctime + ' ' + self.uuid + ' ' + 'linux_arp')
 
 
-class linux_libvmi(threading.Thread):
+class linux_pslist(threading.Thread):
     def __init__(self, uuid):
-        super(linux_libvmi, self).__init__()
+        super(linux_pslist, self).__init__()
         self.daemon = True
         self.uuid = uuid
 
@@ -140,15 +140,38 @@ class linux_libvmi(threading.Thread):
             if pslist[0] != '[':
                 continue
             pid = pslist[1].rstrip(']')
-            name = pslist[2]
+            psname = pslist[2]
             offset = pslist[4].lstrip('addr:')
             offset = offset.rstrip(')')
             db.insert(table,uuid = self.uuid,
                     Offset = offset,
-                    Name = name,
+                    Name = psname,
                     Pid = pid,
                     time = ctime)
-        logger.debug(ctime + ' ' + self.uuid + 'linux_pslist')
+        logger.debug(ctime + ' ' + self.uuid + ' linux_pslist')
+
+
+class linux_lsmod(threading.Thread):
+    def __init__(self, uuid):
+        super(linux_lsmod, self).__init__()
+        self.daemon = True
+        self.uuid = uuid
+
+    def run(self):
+        (win, name, profile, allocation) = profiles[self.uuid]
+        cmd = './../libvmi-master/examples/module-list %s' % (name)
+        res = os.popen(cmd).read()
+        ctime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+        table = 'linux_lsmod'
+        mod_list = res.split('\n')
+        for mod in mod_list:
+            if mod =='':
+                continue
+            module = mod
+            db.insert(table,uuid = self.uuid,
+                    Module = module,
+                    time = ctime)
+        logger.debug(ctime + ' ' + self.uuid + ' linux_lsmod')
 
 
 class windows_vmi(threading.Thread):
@@ -606,22 +629,38 @@ class ifconfig_thread(threading.Thread):
             '''
 
 
-class vmi_thread(threading.Thread):
+class pslist_thread(threading.Thread):
     def __init__(self, uuid):
-        super(vmi_thread, self).__init__()
+        super(pslist_thread, self).__init__()
         self.daemon = True
         self.uuid = uuid
 
     def run(self):
         while(True):
             (win, name, profile, allocation) = profiles[self.uuid]
-            t = linux_libvmi(self.uuid)
+            t = linux_pslist(self.uuid)
             t.setDaemon(True)
             t.start()
             t.join()
             time.sleep(2)
 
-        
+
+class lsmod_thread(threading.Thread):
+    def __init__(self, uuid):
+        super(lsmod_thread, self).__init__()
+        self.daemon = True
+        self.uuid = uuid
+
+    def run(self):
+        while(True):
+            (win, name, profile, allocation) = profiles[self.uuid]
+            t = linux_lsmod(self.uuid)
+            t.setDaemon(True)
+            t.start()
+            t.join()
+            time.sleep(2)
+
+
 def main():
     logger.debug("============[OK] server start up!=============")
     threads = []
@@ -630,7 +669,9 @@ def main():
         threads.append(t)
         t = ifconfig_thread(uuid)
         threads.append(t)
-        t = vmi_thread(uuid)
+        t = pslist_thread(uuid)
+        threads.append(t)
+        t = lsmod_thread(uuid)
         threads.append(t)
 
         for t in threads:
