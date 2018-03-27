@@ -120,6 +120,37 @@ class linux_arp(threading.Thread):
         logger.debug(ctime + ' ' + self.uuid + ' ' + 'linux_arp')
 
 
+class linux_libvmi(threading.Thread):
+    def __init__(self, uuid):
+        super(linux_libvmi, self).__init__()
+        self.daemon = True
+        self.uuid = uuid
+
+    def run(self):
+        (win, name, profile, allocation) = profiles[self.uuid]
+        cmd = './../libvmi-master/examples/process-list %s' % (name)
+        res = os.popen(cmd).read()
+        ctime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+        table = 'linux_pslist'
+        ps_list = res.split('\n')
+        for ps in ps_list:
+            if ps =='':
+                continue
+            pslist = ps.split()
+            if pslist[0] != '[':
+                continue
+            pid = pslist[1].rstrip(']')
+            name = pslist[2]
+            offset = pslist[4].lstrip('addr:')
+            offset = offset.rstrip(')')
+            db.insert(table,uuid = self.uuid,
+                    Offset = offset,
+                    Name = name,
+                    Pid = pid,
+                    time = ctime)
+        logger.debug(ctime + ' ' + self.uuid + 'linux_pslist')
+
+
 class windows_vmi(threading.Thread):
     def __init__(self, uuid, command):
         super(windows_vmi, self).__init__()
@@ -575,6 +606,22 @@ class ifconfig_thread(threading.Thread):
             '''
 
 
+class vmi_thread(threading.Thread):
+    def __init__(self, uuid):
+        super(vmi_thread, self).__init__()
+        self.daemon = True
+        self.uuid = uuid
+
+    def run(self):
+        while(True):
+            (win, name, profile, allocation) = profiles[self.uuid]
+            t = linux_libvmi(self.uuid)
+            t.setDaemon(True)
+            t.start()
+            t.join()
+            time.sleep(2)
+
+        
 def main():
     logger.debug("============[OK] server start up!=============")
     threads = []
@@ -582,6 +629,8 @@ def main():
         t = arp_thread(uuid)
         threads.append(t)
         t = ifconfig_thread(uuid)
+        threads.append(t)
+        t = vmi_thread(uuid)
         threads.append(t)
 
         for t in threads:
