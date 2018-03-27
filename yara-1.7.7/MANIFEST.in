@@ -1,0 +1,7 @@
+include *.rst
+include LICENSE
+recursive-include tests *.py
+recursive-include tests *.yar
+recursive-include yara/rules *.yar
+recursive-include libs *.so
+recursive-include libs *.dll

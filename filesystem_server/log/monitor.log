@@ -2755,3 +2755,4 @@ monitor DEBUG 2018-03-24 06:32:25,346 [filesystem_monitor_server.py:108] 2018-03
 monitor DEBUG 2018-03-24 06:32:27,495 [filesystem_monitor_server.py:108] 2018-03-24-06:32:27 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-03-24-06:32:27_lxc.txt
 monitor DEBUG 2018-03-24 06:32:29,649 [filesystem_monitor_server.py:108] 2018-03-24-06:32:29 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-03-24-06:32:29_lxc.txt
 monitor DEBUG 2018-03-24 06:32:31,849 [filesystem_monitor_server.py:108] 2018-03-24-06:32:31 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-03-24-06:32:31_lxc.txt
+monitor DEBUG 2018-03-26 04:40:01,463 [filesystem_monitor_server.py:112] ============[OK] server start up!=============

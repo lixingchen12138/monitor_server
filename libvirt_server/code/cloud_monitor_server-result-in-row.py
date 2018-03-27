@@ -97,8 +97,8 @@ def multi_host_libvirt_check(host_dict):
 
             # 若虚拟机不存在，则删除数据库中该记录
             if info[0] != 1:
-                logger.debug("non-exists uuid: %s" % uuid)
-                db.delete(cloud_vhost_table, where="`uuid`='%s'" % uuid)
+                #logger.debug("non-exists uuid: %s" % uuid)
+                #db.delete(cloud_vhost_table, where="`uuid`='%s'" % uuid)
                 continue
 
             result[uuid] = {}
