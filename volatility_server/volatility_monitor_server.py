@@ -577,7 +577,7 @@ class arp_thread(threading.Thread):
             t.setDaemon(True)
             t.start()
             t.join()
-            time.sleep(2)
+            time.sleep(1)
 
 
 class ifconfig_thread(threading.Thread):
@@ -593,7 +593,7 @@ class ifconfig_thread(threading.Thread):
             t.setDaemon(True)
             t.start()
             t.join()
-            time.sleep(2)
+            time.sleep(1)
             '''
             if q.empty():
                 time.sleep(2)
@@ -642,7 +642,7 @@ class pslist_thread(threading.Thread):
             t.setDaemon(True)
             t.start()
             t.join()
-            time.sleep(2)
+            time.sleep(1)
 
 
 class lsmod_thread(threading.Thread):
@@ -658,7 +658,7 @@ class lsmod_thread(threading.Thread):
             t.setDaemon(True)
             t.start()
             t.join()
-            time.sleep(2)
+            time.sleep(1)
 
 
 def main():

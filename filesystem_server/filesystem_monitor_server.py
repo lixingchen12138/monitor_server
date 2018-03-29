@@ -131,7 +131,7 @@ def main():
         for t in mount_threads:
             t.join()
 
-	time.sleep(2)
+	time.sleep(1)
 
 if __name__ == '__main__':
     main()

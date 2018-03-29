@@ -31,7 +31,7 @@ cloud_vhost_table = 'cloud_vhost'
 # cloud_config_table = 'cloud_config'
 cloud_result_table = 'cloud_result_in_row'
 
-interval_check_peroid = 2
+interval_check_peroid = 1
 interval_travelsal_libvirtd = 20
 host_list = ["10.0.3.34"]
 current_time = datetime.datetime.now()
@@ -93,7 +93,6 @@ def multi_host_libvirt_check(host_dict):
 
             uuid = domain.UUIDString()
             info = domain.info()
-	    logger.debug(info)
 
             # 若虚拟机不存在，则删除数据库中该记录
             if info[0] != 1:
@@ -102,8 +101,6 @@ def multi_host_libvirt_check(host_dict):
                 continue
 
             result[uuid] = {}
-            # 计算CPU占用率需要两次采集取差值
-            result[uuid]['cpu_time'] = info[4]
 
             # 磁盘信息和IO采集
             #capacity = 0
@@ -170,6 +167,8 @@ def multi_host_libvirt_check(host_dict):
             result[uuid]['net_tx_errs']     = tx_errors
             result[uuid]['net_tx_drop']     = tx_drop
 
+            # 计算CPU占用率需要两次采集取差值
+            result[uuid]['cpu_time'] = info[4]
 
         # sleep
         start_time = time.time()
