@@ -7,5 +7,6 @@ It use qemu-nbd
 It use pyvmi with volatility
 ### other
 tools make the profile of volatility<br>
+pdbparse make the libvmi.conf of windows<br> 
 distorm-master,libvmi-master,python-registry-master and yara(used to netstat) are the dependent libraries<br>
 libMicro-master use to test
