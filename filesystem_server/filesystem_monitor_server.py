@@ -54,7 +54,7 @@ class file_mount(threading.Thread):
             cmd = 'mount /dev/%sp1 /tmp/%s' % (self.allocation, self.uuid)
             os.popen(cmd)
         else:
-            cmd = 'mount /dev/%sp1 /tmp/%s' % (self.allocation, self.uuid)
+            cmd = 'mount /dev/%sp2 /tmp/%s' % (self.allocation, self.uuid)
             os.popen(cmd)
 
         monitor_file_list = files_dict[self.uuid]
