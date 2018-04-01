@@ -201,17 +201,21 @@ def multi_host_libvirt_check(host_dict):
             result[uuid]['cpu_usage'] = cpu_usage
             
             # 内存信息采集
-            domain.setMemoryStatsPeriod(10)
-            meminfo = domain.memoryStats()
+	    win = db.select('cloud_vhost', what="windows", where="uuid='%s'" % uuid)
+	    windows = win[0]['windows']
+            if windows == 0:
+	    	domain.setMemoryStatsPeriod(10)
+            	meminfo = domain.memoryStats()
 
-            free_mem = float(meminfo['unused'])
-            total_mem = float(meminfo['available'])
+            	free_mem = float(meminfo['unused'])
+            	total_mem = float(meminfo['available'])
 
-            # 内存占用公式
-            util_mem = "%.3f" % (((total_mem - free_mem) / total_mem)*100)
+            	# 内存占用公式
+            	util_mem = "%.3f" % (((total_mem - free_mem) / total_mem)*100)
 
-            result[uuid]['memory_usage']    = util_mem
-
+            	result[uuid]['memory_usage'] = util_mem
+            else:
+		result[uuid]['memory_usage'] = ''
             # 磁盘信息和IO采集
             #capacity = 0
             #allocation = 0
