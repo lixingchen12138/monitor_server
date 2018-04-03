@@ -103,7 +103,7 @@ class registry(threading.Thread):
     def run(self):
         global q
         global registry_dict
-        global registris_dict
+        global registries_dict
         table = 'registry_list'
         if q.empty():
             time.sleep(2)
@@ -123,6 +123,7 @@ class registry(threading.Thread):
                         time = ctime,
                         md5 = md5_new
                         )
+                registries_dict[uuid] = registry_dict
             else:
                 registry_dict = {}
                 md5_old = list(ret)[0]['md5']
@@ -135,8 +136,10 @@ class registry(threading.Thread):
                         md5 = md5_new,
                         time = ctime
                         )
+
+
+                    registries_dict[uuid] = registry_dict
             
-            registries_dict[uuid] = registry_dict
             cmd = 'rm registry/%s' % (registry_name)
             os.popen(cmd)
             logger.debug('rm success')
