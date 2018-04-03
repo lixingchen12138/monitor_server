@@ -8,7 +8,7 @@ import logging
 import threading
 # import Queue
 
-from Registry import Registry
+# from Registry import Registry
 from volatility_monitor_settings import *
 from log import getlogger
 from hash import *
@@ -30,9 +30,10 @@ for line in ret:
     profiles[line['uuid']] = (line['windows'], line['name'], line['profile'], line['allocation'])
 
 
-registry_dict = {} # 单注册表字典
-registries = {} # 全注册表字典，键为各文件名
-all_registries = {} # 全虚拟节点注册表字典，键为虚拟机id
+# 注册表监控已经合并至文件系统
+# registry_dict = {} # 注册表字典
+# registries = {} # 全注册表字典，键为各文件名
+# all_registries = {} # 全虚拟节点注册表字典，键为虚拟机id
 
 # 队列用于一生产者多消费者的情况
 # q = Queue.Queue(maxsize = 5)
@@ -65,19 +66,19 @@ class linux_ifconfig(threading.Thread):
             promiscuous = ifconfiglist[3]
             if ip.find('.') == -1 :
                 continue     
-            # ret = db.select(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' and `Mode`='%s'" % (self.uuid, row[interface_index], row[ip_index], row[mac_index], row[promiscuous_index]))
-            # if len(ret) == 0:
-            db.insert(table,uuid = self.uuid,
+            ret = db.select(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' and `Mode`='%s'" % (self.uuid, interface, ip, mac, promiscuous))
+            if len(ret) == 0:
+                db.insert(table,uuid = self.uuid,
                                 Interface = interface,
                                 Ip = ip,
                                 Mac = mac,
                                 Mode = promiscuous,
                                 time = ctime)
-            # else:
-                # db.update(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' and `Mode`='%s'" % (self.uuid, row[interface_index], row[ip_index], row[mac_index], row[promiscuous_index]),
-                                    # time = ctime)
+            else:
+                db.update(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' and `Mode`='%s'" % (self.uuid, interface, ip, mac, promiscuous),
+                                    time = ctime)
         # 删除之前的记录
-        # db.delete(table,where="`time`<>'%s'" % ctime)
+        db.delete(table,where="`time`<>'%s'" % ctime)
         logger.debug(ctime + ' ' + self.uuid + ' ' + 'linux_ifconfig')
  
 
@@ -105,18 +106,18 @@ class linux_arp(threading.Thread):
             cInterface = arplist[5]
             if cIp.find(':') != -1 :
                 continue        
-            # ret = db.select(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' " % (self.uuid, cInterface, cIp, cMac))
-            # if len(ret) == 0:
-            db.insert(table,uuid = self.uuid,
+            ret = db.select(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s' " % (self.uuid, cInterface, cIp, cMac))
+            if len(ret) == 0:
+                db.insert(table,uuid = self.uuid,
                                 Interface = cInterface,
                                 Ip = cIp,
                                 Mac = cMac,
                                 time = ctime)
-            # else:
-                # db.update(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s'" % (self.uuid, cInterface, cIp, cMac),
-                                   #  time = ctime)
+            else:
+                db.update(table, where="`uuid`='%s' and `Interface`='%s' and `Ip`='%s' and `Mac`='%s'" % (self.uuid, cInterface, cIp, cMac),
+                                   time = ctime)
         # 删除之前的记录
-        # db.delete(table,where="`time`<>'%s'" % ctime)
+        db.delete(table,where="`time`<>'%s'" % ctime)
         logger.debug(ctime + ' ' + self.uuid + ' ' + 'linux_arp')
 
 
@@ -174,6 +175,8 @@ class linux_lsmod(threading.Thread):
         logger.debug(ctime + ' ' + self.uuid + ' linux_lsmod')
 
 
+# 早期的版本，因为pyvmi的该功能延时太大而放弃
+'''
 class windows_vmi(threading.Thread):
     def __init__(self, uuid, command):
         super(windows_vmi, self).__init__()
@@ -255,8 +258,10 @@ class linux_netstat(threading.Thread):
         # 删除之前的记录
         # db.delete(table,where="`time`<>'%s'" % ctime)
         logger.debug(ctime + ' ' + self.uuid + ' ' + 'linux_netstat')
+'''
 
-
+# 文件系统监控，原本使用监控内存缓存的方法，后来被磁盘监控替代
+'''
 def linux_file_list(uuid, dir_path):
     global files
     global all_files
@@ -442,7 +447,10 @@ def windows_file_change(uuid, path, Offset, Access):
             res = os.popen(cmd)
     logger.debug(ctime + ' ' + uuid+ ' ' + path)
 
+'''
 
+# 内存打印方法，因为过程会暂停虚拟机而放弃
+'''
 class dump_memory(threading.Thread):
     def __init__(self, uuid, memory_name):
         super(dump_memory, self).__init__()
@@ -454,8 +462,10 @@ class dump_memory(threading.Thread):
         (win, name, profile, allocation) = profiles[self.uuid]
         cmd = 'virsh dump %s memory/%s.dd --memory-only --live' % (name, self.memory_name)
         os.popen(cmd)
+'''
 
-
+# 注册表监控方法，已经全部移动到filesystem_monitor_server
+'''
 class registry(threading.Thread):
     def __init__(self, uuid):
         super(registry, self).__init__()
@@ -563,7 +573,7 @@ def compare(uuid, registry, old_dict, new_dict):
                             )
 
 
-
+'''
 class arp_thread(threading.Thread):
     def __init__(self, uuid):
         super(arp_thread, self).__init__()
@@ -594,39 +604,6 @@ class ifconfig_thread(threading.Thread):
             t.start()
             t.join()
             time.sleep(1)
-            '''
-            if q.empty():
-                time.sleep(2)
-            else:
-                memory_name = q.get()
-                threads = []
-                if win == 0:
-                    t = linux_arp(self.uuid, memory_name)
-                    threads.append(t)
-                    # linux 网卡信息
-                    t = linux_vmi(self.uuid, 'linux_ifconfig', memory_name)
-                    threads.append(t)
-                    # linux lsof记录
-                    # t = linux_vmi(self.uuid, 'linux_lsof')
-                    # read_threads.append(t)
-                    # linux netstat记录
-                    t = linux_netstat(self.uuid, memory_name)
-                    threads.append(t)
-                if win == 1:
-                    # windows注册表
-                    t = registry(uuid)
-                    threads.append(t)
-                    # windows网络连接
-                    t = windows_vmi(uuid, 'netscan')
-                    threads.append(t)
-            
-                for t in threads:
-                    t.setDaemon(True)
-                    t.start()
-
-                for t in threads:
-                    t.join()
-            '''
 
 
 class pslist_thread(threading.Thread):
@@ -665,22 +642,26 @@ def main():
     logger.debug("============[OK] server start up!=============")
     threads = []
     for (uuid,(win,name,profile,allocation)) in profiles.items():
-        t = arp_thread(uuid)
-        threads.append(t)
-        t = ifconfig_thread(uuid)
-        threads.append(t)
-        t = pslist_thread(uuid)
-        threads.append(t)
-        t = lsmod_thread(uuid)
-        threads.append(t)
+        if win == 0:
+            t = arp_thread(uuid)
+            threads.append(t)
+            t = ifconfig_thread(uuid)
+            threads.append(t)
+            t = pslist_thread(uuid)
+            threads.append(t)
+            t = lsmod_thread(uuid)
+            threads.append(t)
 
-        for t in threads:
-            t.setDaemon(True)
-            t.start()
+    for t in threads:
+        t.setDaemon(True)
+        t.start()
 
 
-        for t in threads:
-            t.join()
+    for t in threads:
+        t.join()
+
+
+
     '''
         # 内存文件监控，目前由挂载文件监控替代
         # 定义线程池

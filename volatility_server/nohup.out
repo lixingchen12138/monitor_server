@@ -1,107 +1,39 @@
-CloudMonitor DEBUG 2018-03-29 09:06:09,724 [volatility_monitor_server.py:665] ============[OK] server start up!=============
+CloudMonitor DEBUG 2018-04-03 05:11:43,394 [volatility_monitor_server.py:642] ============[OK] server start up!=============
 Volatility Foundation Volatility Framework 2.5
 Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:06:16,170 [volatility_monitor_server.py:81] 2018-03-29 09:06:16 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:06:17,290 [volatility_monitor_server.py:120] 2018-03-29 09:06:17 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
-CloudMonitor DEBUG 2018-03-29 09:06:17,424 [volatility_monitor_server.py:174] 2018-03-29 09:06:14 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
+CloudMonitor DEBUG 2018-04-03 05:11:50,010 [volatility_monitor_server.py:82] 2018-04-03 05:11:49 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
 Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-03 05:11:51,270 [volatility_monitor_server.py:175] 2018-04-03 05:11:47 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
+CloudMonitor DEBUG 2018-04-03 05:11:51,480 [volatility_monitor_server.py:121] 2018-04-03 05:11:51 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
 Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:06:22,581 [volatility_monitor_server.py:151] 2018-03-29 09:06:17 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
-CloudMonitor DEBUG 2018-03-29 09:06:27,839 [volatility_monitor_server.py:81] 2018-03-29 09:06:27 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:06:29,812 [volatility_monitor_server.py:174] 2018-03-29 09:06:26 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-CloudMonitor DEBUG 2018-03-29 09:06:30,079 [volatility_monitor_server.py:120] 2018-03-29 09:06:29 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
+CloudMonitor DEBUG 2018-04-03 05:11:55,164 [volatility_monitor_server.py:152] 2018-04-03 05:11:50 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
+CloudMonitor DEBUG 2018-04-03 05:11:57,968 [volatility_monitor_server.py:82] 2018-04-03 05:11:57 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
 Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-03 05:11:59,496 [volatility_monitor_server.py:175] 2018-04-03 05:11:56 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
+CloudMonitor DEBUG 2018-04-03 05:12:00,506 [volatility_monitor_server.py:121] 2018-04-03 05:12:00 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
 Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:06:40,250 [volatility_monitor_server.py:81] 2018-03-29 09:06:40 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:06:41,336 [volatility_monitor_server.py:151] 2018-03-29 09:06:35 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
-CloudMonitor DEBUG 2018-03-29 09:06:42,932 [volatility_monitor_server.py:120] 2018-03-29 09:06:42 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
-CloudMonitor DEBUG 2018-03-29 09:06:43,651 [volatility_monitor_server.py:174] 2018-03-29 09:06:39 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
+CloudMonitor DEBUG 2018-04-03 05:12:06,062 [volatility_monitor_server.py:82] 2018-04-03 05:12:05 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
 Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-03 05:12:09,272 [volatility_monitor_server.py:121] 2018-04-03 05:12:09 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
+CloudMonitor DEBUG 2018-04-03 05:12:10,064 [volatility_monitor_server.py:152] 2018-04-03 05:12:03 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
+CloudMonitor DEBUG 2018-04-03 05:12:10,248 [volatility_monitor_server.py:175] 2018-04-03 05:12:04 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
 Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:06:52,905 [volatility_monitor_server.py:81] 2018-03-29 09:06:52 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:06:55,646 [volatility_monitor_server.py:120] 2018-03-29 09:06:55 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
-CloudMonitor DEBUG 2018-03-29 09:06:57,626 [volatility_monitor_server.py:174] 2018-03-29 09:06:53 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
+CloudMonitor DEBUG 2018-04-03 05:12:14,214 [volatility_monitor_server.py:82] 2018-04-03 05:12:14 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
 Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-03 05:12:18,473 [volatility_monitor_server.py:121] 2018-04-03 05:12:18 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
+CloudMonitor DEBUG 2018-04-03 05:12:19,107 [volatility_monitor_server.py:175] 2018-04-03 05:12:15 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
 Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:07:00,819 [volatility_monitor_server.py:151] 2018-03-29 09:06:54 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
-CloudMonitor DEBUG 2018-03-29 09:07:05,168 [volatility_monitor_server.py:81] 2018-03-29 09:07:05 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:07:09,099 [volatility_monitor_server.py:120] 2018-03-29 09:07:08 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
-CloudMonitor DEBUG 2018-03-29 09:07:09,901 [volatility_monitor_server.py:174] 2018-03-29 09:07:07 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
+CloudMonitor DEBUG 2018-04-03 05:12:21,806 [volatility_monitor_server.py:82] 2018-04-03 05:12:21 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
+CloudMonitor DEBUG 2018-04-03 05:12:22,633 [volatility_monitor_server.py:152] 2018-04-03 05:12:17 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
 Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-03 05:12:27,532 [volatility_monitor_server.py:121] 2018-04-03 05:12:27 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
+CloudMonitor DEBUG 2018-04-03 05:12:27,890 [volatility_monitor_server.py:175] 2018-04-03 05:12:24 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
 Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:07:17,419 [volatility_monitor_server.py:81] 2018-03-29 09:07:17 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:07:18,832 [volatility_monitor_server.py:151] 2018-03-29 09:07:13 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
-Segmentation fault (core dumped)
-CloudMonitor DEBUG 2018-03-29 09:07:19,243 [volatility_monitor_server.py:174] 2018-03-29 09:07:19 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-Exception in thread Thread-25:
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
-    self.run()
-  File "volatility_monitor_server.py", line 105, in run
-    cInterface = arplist[5]
-IndexError: list index out of range
-
+CloudMonitor DEBUG 2018-04-03 05:12:30,216 [volatility_monitor_server.py:82] 2018-04-03 05:12:30 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
 Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:07:24,336 [volatility_monitor_server.py:151] 2018-03-29 09:07:24 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
+CloudMonitor DEBUG 2018-04-03 05:12:35,587 [volatility_monitor_server.py:152] 2018-04-03 05:12:30 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
+CloudMonitor DEBUG 2018-04-03 05:12:36,272 [volatility_monitor_server.py:121] 2018-04-03 05:12:35 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
 Volatility Foundation Volatility Framework 2.5
-Segmentation fault (core dumped)
-CloudMonitor DEBUG 2018-03-29 09:07:26,230 [volatility_monitor_server.py:174] 2018-03-29 09:07:26 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-CloudMonitor DEBUG 2018-03-29 09:07:29,661 [volatility_monitor_server.py:81] 2018-03-29 09:07:29 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-Segmentation fault (core dumped)
-CloudMonitor DEBUG 2018-03-29 09:07:33,242 [volatility_monitor_server.py:174] 2018-03-29 09:07:33 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-CloudMonitor DEBUG 2018-03-29 09:07:33,509 [volatility_monitor_server.py:120] 2018-03-29 09:07:33 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
+CloudMonitor DEBUG 2018-04-03 05:12:37,825 [volatility_monitor_server.py:175] 2018-04-03 05:12:33 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
+CloudMonitor DEBUG 2018-04-03 05:12:37,985 [volatility_monitor_server.py:82] 2018-04-03 05:12:37 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
 Volatility Foundation Volatility Framework 2.5
-Volatility Foundation Volatility Framework 2.5
-Segmentation fault (core dumped)
-CloudMonitor DEBUG 2018-03-29 09:07:40,266 [volatility_monitor_server.py:174] 2018-03-29 09:07:40 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-CloudMonitor DEBUG 2018-03-29 09:07:41,840 [volatility_monitor_server.py:81] 2018-03-29 09:07:41 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-Exception in thread Thread-35:
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
-    self.run()
-  File "volatility_monitor_server.py", line 105, in run
-    cInterface = arplist[5]
-IndexError: list index out of range
-
-CloudMonitor DEBUG 2018-03-29 09:07:44,814 [volatility_monitor_server.py:151] 2018-03-29 09:07:39 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
-Volatility Foundation Volatility Framework 2.5
-Segmentation fault (core dumped)
-CloudMonitor DEBUG 2018-03-29 09:07:47,241 [volatility_monitor_server.py:174] 2018-03-29 09:07:47 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:07:52,034 [volatility_monitor_server.py:81] 2018-03-29 09:07:52 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:07:53,232 [volatility_monitor_server.py:151] 2018-03-29 09:07:52 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
-Exception in thread Thread-38:
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
-    self.run()
-  File "volatility_monitor_server.py", line 105, in run
-    cInterface = arplist[5]
-IndexError: list index out of range
-
-Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:07:59,814 [volatility_monitor_server.py:174] 2018-03-29 09:07:56 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:08:03,067 [volatility_monitor_server.py:81] 2018-03-29 09:08:03 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-Segmentation fault (core dumped)
-CloudMonitor DEBUG 2018-03-29 09:08:07,257 [volatility_monitor_server.py:174] 2018-03-29 09:08:07 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-Exception in thread Thread-43:
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
-    self.run()
-  File "volatility_monitor_server.py", line 105, in run
-    cInterface = arplist[5]
-IndexError: list index out of range
-
-Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:08:11,059 [volatility_monitor_server.py:151] 2018-03-29 09:08:06 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
-Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:08:14,760 [volatility_monitor_server.py:81] 2018-03-29 09:08:14 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:08:18,416 [volatility_monitor_server.py:120] 2018-03-29 09:08:18 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
-Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:08:19,933 [volatility_monitor_server.py:174] 2018-03-29 09:08:16 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
-Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:08:27,099 [volatility_monitor_server.py:81] 2018-03-29 09:08:26 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
-CloudMonitor DEBUG 2018-03-29 09:08:28,604 [volatility_monitor_server.py:151] 2018-03-29 09:08:23 b209afc4-0687-4bcf-9a90-ff824d000001 linux_pslist
-CloudMonitor DEBUG 2018-03-29 09:08:30,498 [volatility_monitor_server.py:120] 2018-03-29 09:08:30 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
-Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-03-29 09:08:32,529 [volatility_monitor_server.py:174] 2018-03-29 09:08:29 b209afc4-0687-4bcf-9a90-ff824d000001 linux_lsmod
