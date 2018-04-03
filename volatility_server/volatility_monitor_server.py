@@ -144,11 +144,18 @@ class linux_pslist(threading.Thread):
             psname = pslist[2]
             offset = pslist[4].lstrip('addr:')
             offset = offset.rstrip(')')
-            db.insert(table,uuid = self.uuid,
-                    Offset = offset,
-                    Name = psname,
-                    Pid = pid,
-                    time = ctime)
+            ret = db.select(table, where="`uuid`='%s' and `Offset`='%s' and `Name`='%s' and `Pid`='%s' " % (self.uuid, offset, psname, pid))
+            if len(ret) == 0:
+                db.insert(table,uuid = self.uuid,
+                        Offset = offset,
+                        Name = psname,
+                        Pid = pid,
+                        time = ctime)
+            else:
+                db.update(table, where="`uuid`='%s' and `Offset`='%s' and `Name`='%s' and `Pid`='%s'" % (self.uuid, offset, psname, pid),
+                                    time = ctime)
+        # 删除之前的记录
+        db.delete(table,where="`time`<>'%s'" % ctime)
         logger.debug(ctime + ' ' + self.uuid + ' linux_pslist')
 
 
@@ -169,9 +176,16 @@ class linux_lsmod(threading.Thread):
             if mod =='':
                 continue
             module = mod
-            db.insert(table,uuid = self.uuid,
-                    Module = module,
-                    time = ctime)
+            ret = db.select(table, where="`uuid`='%s' and `Module`='%s' " % (self.uuid, module))
+            if len(ret) == 0:
+                db.insert(table,uuid = self.uuid,
+                        Module = module,
+                        time = ctime)
+            else:
+                db.update(table, where="`uuid`='%s' and `Module`='%s'" % (self.uuid, module),
+                                    time = ctime)
+        # 删除之前的记录
+        db.delete(table,where="`time`<>'%s'" % ctime)
         logger.debug(ctime + ' ' + self.uuid + ' linux_lsmod')
 
 
