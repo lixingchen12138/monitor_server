@@ -121,9 +121,9 @@ class linux_arp(threading.Thread):
         logger.debug(ctime + ' ' + self.uuid + ' ' + 'linux_arp')
 
 
-class linux_pslist(threading.Thread):
+class pslist(threading.Thread):
     def __init__(self, uuid):
-        super(linux_pslist, self).__init__()
+        super(pslist, self).__init__()
         self.daemon = True
         self.uuid = uuid
 
@@ -132,7 +132,10 @@ class linux_pslist(threading.Thread):
         cmd = './../libvmi-master/examples/process-list %s' % (name)
         res = os.popen(cmd).read()
         ctime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
-        table = 'linux_pslist'
+        if win == 0:
+            table = 'linux_pslist'
+        else:
+            table = 'windows_pslist'
         ps_list = res.split('\n')
         for ps in ps_list:
             if ps =='':
@@ -156,12 +159,12 @@ class linux_pslist(threading.Thread):
                                     time = ctime)
         # 删除之前的记录
         db.delete(table,where="`time`<>'%s'" % ctime)
-        logger.debug(ctime + ' ' + self.uuid + ' linux_pslist')
+        logger.debug(ctime + ' ' + self.uuid + ' pslist')
 
 
-class linux_lsmod(threading.Thread):
+class lsmod(threading.Thread):
     def __init__(self, uuid):
-        super(linux_lsmod, self).__init__()
+        super(lsmod, self).__init__()
         self.daemon = True
         self.uuid = uuid
 
@@ -170,7 +173,10 @@ class linux_lsmod(threading.Thread):
         cmd = './../libvmi-master/examples/module-list %s' % (name)
         res = os.popen(cmd).read()
         ctime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
-        table = 'linux_lsmod'
+        if win == 0:
+            table = 'linux_lsmod'
+        else:
+            table = 'windows_lsmod'
         mod_list = res.split('\n')
         for mod in mod_list:
             if mod =='':
@@ -186,7 +192,7 @@ class linux_lsmod(threading.Thread):
                                     time = ctime)
         # 删除之前的记录
         db.delete(table,where="`time`<>'%s'" % ctime)
-        logger.debug(ctime + ' ' + self.uuid + ' linux_lsmod')
+        logger.debug(ctime + ' ' + self.uuid + ' lsmod')
 
 
 # 早期的版本，因为pyvmi的该功能延时太大而放弃
@@ -596,7 +602,6 @@ class arp_thread(threading.Thread):
 
     def run(self):
         while True:
-            (win, name, profile, allocation) = profiles[self.uuid]
             t = linux_arp(self.uuid)
             t.setDaemon(True)
             t.start()
@@ -612,7 +617,6 @@ class ifconfig_thread(threading.Thread):
         
     def run(self):
         while True:
-            (win, name, profile, allocation) = profiles[self.uuid]
             t = linux_ifconfig(self.uuid)
             t.setDaemon(True)
             t.start()
@@ -628,8 +632,7 @@ class pslist_thread(threading.Thread):
 
     def run(self):
         while(True):
-            (win, name, profile, allocation) = profiles[self.uuid]
-            t = linux_pslist(self.uuid)
+            t = pslist(self.uuid)
             t.setDaemon(True)
             t.start()
             t.join()
@@ -644,8 +647,7 @@ class lsmod_thread(threading.Thread):
 
     def run(self):
         while(True):
-            (win, name, profile, allocation) = profiles[self.uuid]
-            t = linux_lsmod(self.uuid)
+            t = lsmod(self.uuid)
             t.setDaemon(True)
             t.start()
             t.join()
@@ -661,10 +663,10 @@ def main():
             threads.append(t)
             t = ifconfig_thread(uuid)
             threads.append(t)
-            t = pslist_thread(uuid)
-            threads.append(t)
-            t = lsmod_thread(uuid)
-            threads.append(t)
+        t = pslist_thread(uuid)
+        threads.append(t)
+        t = lsmod_thread(uuid)
+        threads.append(t)
 
     for t in threads:
         t.setDaemon(True)
