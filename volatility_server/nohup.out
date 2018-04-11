@@ -1,4 +1,26 @@
-CloudMonitor DEBUG 2018-04-05 03:46:08,079 [volatility_monitor_server.py:658] ============[OK] server start up!=============
+CloudMonitor DEBUG 2018-04-11 05:15:09,937 [volatility_monitor_server.py:658] ============[OK] server start up!=============
 Volatility Foundation Volatility Framework 2.5
 Volatility Foundation Volatility Framework 2.5
-CloudMonitor DEBUG 2018-04-05 03:46:10,963 [volatility_monitor_server.py:162] 2018-04-05 03:46:10 2c520928-3aae-057a-fb6b-3e06a8d261e1 pslist
+CloudMonitor DEBUG 2018-04-11 05:15:19,466 [volatility_monitor_server.py:82] 2018-04-11 05:15:19 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
+Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-11 05:15:20,559 [volatility_monitor_server.py:121] 2018-04-11 05:15:19 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
+CloudMonitor DEBUG 2018-04-11 05:15:20,615 [volatility_monitor_server.py:195] 2018-04-11 05:15:14 b209afc4-0687-4bcf-9a90-ff824d000001 lsmod
+CloudMonitor DEBUG 2018-04-11 05:15:20,932 [volatility_monitor_server.py:162] 2018-04-11 05:15:14 2c520928-3aae-057a-fb6b-3e06a8d261e1 pslist
+Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-11 05:15:25,726 [volatility_monitor_server.py:195] 2018-04-11 05:15:15 2c520928-3aae-057a-fb6b-3e06a8d261e1 lsmod
+CloudMonitor DEBUG 2018-04-11 05:15:25,767 [volatility_monitor_server.py:162] 2018-04-11 05:15:16 b209afc4-0687-4bcf-9a90-ff824d000001 pslist
+CloudMonitor DEBUG 2018-04-11 05:15:27,498 [volatility_monitor_server.py:82] 2018-04-11 05:15:27 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
+Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-11 05:15:29,062 [volatility_monitor_server.py:121] 2018-04-11 05:15:28 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
+Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-11 05:15:30,634 [volatility_monitor_server.py:195] 2018-04-11 05:15:25 b209afc4-0687-4bcf-9a90-ff824d000001 lsmod
+CloudMonitor DEBUG 2018-04-11 05:15:31,970 [volatility_monitor_server.py:162] 2018-04-11 05:15:26 2c520928-3aae-057a-fb6b-3e06a8d261e1 pslist
+CloudMonitor DEBUG 2018-04-11 05:15:34,865 [volatility_monitor_server.py:82] 2018-04-11 05:15:34 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig
+Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-11 05:15:38,250 [volatility_monitor_server.py:121] 2018-04-11 05:15:38 b209afc4-0687-4bcf-9a90-ff824d000001 linux_arp
+Volatility Foundation Volatility Framework 2.5
+CloudMonitor DEBUG 2018-04-11 05:15:40,457 [volatility_monitor_server.py:195] 2018-04-11 05:15:31 2c520928-3aae-057a-fb6b-3e06a8d261e1 lsmod
+CloudMonitor DEBUG 2018-04-11 05:15:41,259 [volatility_monitor_server.py:195] 2018-04-11 05:15:35 b209afc4-0687-4bcf-9a90-ff824d000001 lsmod
+CloudMonitor DEBUG 2018-04-11 05:15:41,393 [volatility_monitor_server.py:162] 2018-04-11 05:15:33 b209afc4-0687-4bcf-9a90-ff824d000001 pslist
+CloudMonitor DEBUG 2018-04-11 05:15:42,745 [volatility_monitor_server.py:162] 2018-04-11 05:15:37 2c520928-3aae-057a-fb6b-3e06a8d261e1 pslist
+CloudMonitor DEBUG 2018-04-11 05:15:42,929 [volatility_monitor_server.py:82] 2018-04-11 05:15:42 b209afc4-0687-4bcf-9a90-ff824d000001 linux_ifconfig

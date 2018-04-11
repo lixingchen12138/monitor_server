@@ -1,377 +1,209 @@
-monitor DEBUG 2018-04-03 03:44:06,388 [filesystem_monitor_server.py:258] ============[OK] server start up!=============
+monitor DEBUG 2018-04-11 06:11:26,308 [filesystem_monitor_server.py:258] ============[OK] server start up!=============
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-The disk contains an unclean file system (0, 0).
-The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:44:07,589 [filesystem_monitor_server.py:222] 2018-04-03-03:44:07 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:07_lxc.txt
-monitor DEBUG 2018-04-03 03:44:08,106 [filesystem_monitor_server.py:222] 2018-04-03-03:44:08 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:08_lxc.txt
-monitor DEBUG 2018-04-03 03:44:08,259 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:08_SYSTEM
-monitor DEBUG 2018-04-03 03:44:09,097 [filesystem_monitor_server.py:222] 2018-04-03-03:44:09 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:09_lxc.txt
+monitor DEBUG 2018-04-11 06:11:26,424 [filesystem_monitor_server.py:222] 2018-04-11-06:11:26 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:26_lxc.txt
+monitor DEBUG 2018-04-11 06:11:26,449 [filesystem_monitor_server.py:222] 2018-04-11-06:11:26 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:26_lxc.txt
+monitor DEBUG 2018-04-11 06:11:26,479 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:26_SYSTEM
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:09,470 [filesystem_monitor_server.py:222] 2018-04-03-03:44:09 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:09_lxc.txt
-monitor DEBUG 2018-04-03 03:44:09,527 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:09_SYSTEM
-monitor DEBUG 2018-04-03 03:44:10,348 [filesystem_monitor_server.py:222] 2018-04-03-03:44:10 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:10_lxc.txt
+monitor DEBUG 2018-04-11 06:11:27,630 [filesystem_monitor_server.py:222] 2018-04-11-06:11:27 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:27_lxc.txt
+monitor DEBUG 2018-04-11 06:11:27,646 [filesystem_monitor_server.py:222] 2018-04-11-06:11:27 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:27_lxc.txt
+monitor DEBUG 2018-04-11 06:11:27,703 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:27_SYSTEM
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:10,729 [filesystem_monitor_server.py:222] 2018-04-03-03:44:10 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:10_lxc.txt
-monitor DEBUG 2018-04-03 03:44:10,797 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:10_SYSTEM
-monitor DEBUG 2018-04-03 03:44:11,615 [filesystem_monitor_server.py:222] 2018-04-03-03:44:11 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:11_lxc.txt
+monitor DEBUG 2018-04-11 06:11:28,813 [filesystem_monitor_server.py:222] 2018-04-11-06:11:28 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:28_lxc.txt
+monitor DEBUG 2018-04-11 06:11:28,855 [filesystem_monitor_server.py:222] 2018-04-11-06:11:28 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:28_lxc.txt
+monitor DEBUG 2018-04-11 06:11:28,918 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:28_SYSTEM
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:12,062 [filesystem_monitor_server.py:222] 2018-04-03-03:44:12 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:12_lxc.txt
-monitor DEBUG 2018-04-03 03:44:12,121 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:12_SYSTEM
-monitor DEBUG 2018-04-03 03:44:12,873 [filesystem_monitor_server.py:222] 2018-04-03-03:44:12 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:12_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-The disk contains an unclean file system (0, 0).
-The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:44:14,159 [filesystem_monitor_server.py:222] 2018-04-03-03:44:14 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:14_lxc.txt
-monitor DEBUG 2018-04-03 03:44:14,588 [filesystem_monitor_server.py:222] 2018-04-03-03:44:14 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:14_lxc.txt
-monitor DEBUG 2018-04-03 03:44:14,655 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:14_SYSTEM
-monitor DEBUG 2018-04-03 03:44:15,391 [filesystem_monitor_server.py:222] 2018-04-03-03:44:15 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:15_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:15,846 [filesystem_monitor_server.py:222] 2018-04-03-03:44:15 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:15_lxc.txt
-monitor DEBUG 2018-04-03 03:44:15,917 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:15_SYSTEM
-monitor DEBUG 2018-04-03 03:44:16,788 [filesystem_monitor_server.py:222] 2018-04-03-03:44:16 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:16_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:17,095 [filesystem_monitor_server.py:222] 2018-04-03-03:44:17 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:17_lxc.txt
-monitor DEBUG 2018-04-03 03:44:18,048 [filesystem_monitor_server.py:222] 2018-04-03-03:44:18 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:18_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:18,298 [filesystem_monitor_server.py:222] 2018-04-03-03:44:18 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:18_lxc.txt
-monitor DEBUG 2018-04-03 03:44:19,274 [filesystem_monitor_server.py:222] 2018-04-03-03:44:19 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:19_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:19,489 [filesystem_monitor_server.py:222] 2018-04-03-03:44:19 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:19_lxc.txt
-monitor DEBUG 2018-04-03 03:44:20,553 [filesystem_monitor_server.py:222] 2018-04-03-03:44:20 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:20_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:20,713 [filesystem_monitor_server.py:222] 2018-04-03-03:44:20 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:20_lxc.txt
-monitor DEBUG 2018-04-03 03:44:21,856 [filesystem_monitor_server.py:222] 2018-04-03-03:44:21 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:21_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:22,019 [filesystem_monitor_server.py:222] 2018-04-03-03:44:22 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:22_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:23,161 [filesystem_monitor_server.py:222] 2018-04-03-03:44:23 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:23_lxc.txt
-The disk contains an unclean file system (0, 0).
-The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:44:24,410 [filesystem_monitor_server.py:222] 2018-04-03-03:44:24 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:24_lxc.txt
-monitor DEBUG 2018-04-03 03:44:24,463 [filesystem_monitor_server.py:222] 2018-04-03-03:44:24 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:24_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:25,678 [filesystem_monitor_server.py:222] 2018-04-03-03:44:25 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:25_lxc.txt
-monitor DEBUG 2018-04-03 03:44:25,724 [filesystem_monitor_server.py:222] 2018-04-03-03:44:25 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:25_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:26,903 [filesystem_monitor_server.py:222] 2018-04-03-03:44:26 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:26_lxc.txt
-monitor DEBUG 2018-04-03 03:44:26,999 [filesystem_monitor_server.py:222] 2018-04-03-03:44:26 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:26_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:28,101 [filesystem_monitor_server.py:222] 2018-04-03-03:44:28 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:28_lxc.txt
-monitor DEBUG 2018-04-03 03:44:28,252 [filesystem_monitor_server.py:222] 2018-04-03-03:44:28 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:28_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:29,505 [filesystem_monitor_server.py:222] 2018-04-03-03:44:29 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:29_lxc.txt
-monitor DEBUG 2018-04-03 03:44:29,632 [filesystem_monitor_server.py:222] 2018-04-03-03:44:29 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:29_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:30,696 [filesystem_monitor_server.py:222] 2018-04-03-03:44:30 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:30_lxc.txt
-monitor DEBUG 2018-04-03 03:44:30,901 [filesystem_monitor_server.py:222] 2018-04-03-03:44:30 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:30_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:31,899 [filesystem_monitor_server.py:222] 2018-04-03-03:44:31 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:31_lxc.txt
-monitor DEBUG 2018-04-03 03:44:32,315 [filesystem_monitor_server.py:222] 2018-04-03-03:44:32 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:32_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:33,086 [filesystem_monitor_server.py:222] 2018-04-03-03:44:33 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:33_lxc.txt
-monitor DEBUG 2018-04-03 03:44:33,339 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:33,571 [filesystem_monitor_server.py:222] 2018-04-03-03:44:33 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:33_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-The disk contains an unclean file system (0, 0).
-The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:44:34,401 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:34,861 [filesystem_monitor_server.py:222] 2018-04-03-03:44:34 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:34_lxc.txt
-monitor DEBUG 2018-04-03 03:44:35,467 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:35,616 [filesystem_monitor_server.py:222] 2018-04-03-03:44:35 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:35_lxc.txt
-monitor DEBUG 2018-04-03 03:44:35,678 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:35_SYSTEM
-monitor DEBUG 2018-04-03 03:44:36,356 [filesystem_monitor_server.py:222] 2018-04-03-03:44:36 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:36_lxc.txt
-monitor DEBUG 2018-04-03 03:44:36,540 [filesystem_monitor_server.py:145] rm success
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:36,851 [filesystem_monitor_server.py:222] 2018-04-03-03:44:36 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:36_lxc.txt
-monitor DEBUG 2018-04-03 03:44:36,920 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:36_SYSTEM
-monitor DEBUG 2018-04-03 03:44:37,599 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:37,618 [filesystem_monitor_server.py:222] 2018-04-03-03:44:37 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:37_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:38,098 [filesystem_monitor_server.py:222] 2018-04-03-03:44:38 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:38_lxc.txt
-monitor DEBUG 2018-04-03 03:44:38,167 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:38_SYSTEM
-monitor DEBUG 2018-04-03 03:44:38,672 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:38,867 [filesystem_monitor_server.py:222] 2018-04-03-03:44:38 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:38_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:39,350 [filesystem_monitor_server.py:222] 2018-04-03-03:44:39 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:39_lxc.txt
-monitor DEBUG 2018-04-03 03:44:39,415 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:39_SYSTEM
-monitor DEBUG 2018-04-03 03:44:39,735 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:40,126 [filesystem_monitor_server.py:222] 2018-04-03-03:44:40 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:40_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:40,598 [filesystem_monitor_server.py:222] 2018-04-03-03:44:40 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:40_lxc.txt
-monitor DEBUG 2018-04-03 03:44:40,665 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:40_SYSTEM
-monitor DEBUG 2018-04-03 03:44:40,812 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:41,388 [filesystem_monitor_server.py:222] 2018-04-03-03:44:41 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:41_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:41,826 [filesystem_monitor_server.py:222] 2018-04-03-03:44:41 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:41_lxc.txt
-monitor DEBUG 2018-04-03 03:44:41,882 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:41,905 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:41_SYSTEM
-monitor DEBUG 2018-04-03 03:44:42,632 [filesystem_monitor_server.py:222] 2018-04-03-03:44:42 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:42_lxc.txt
-monitor DEBUG 2018-04-03 03:44:42,955 [filesystem_monitor_server.py:145] rm success
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:43,102 [filesystem_monitor_server.py:222] 2018-04-03-03:44:43 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:43_lxc.txt
-monitor DEBUG 2018-04-03 03:44:43,177 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:43_SYSTEM
-monitor DEBUG 2018-04-03 03:44:43,851 [filesystem_monitor_server.py:222] 2018-04-03-03:44:43 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:43_lxc.txt
-monitor DEBUG 2018-04-03 03:44:44,028 [filesystem_monitor_server.py:145] rm success
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:44,349 [filesystem_monitor_server.py:222] 2018-04-03-03:44:44 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:44_lxc.txt
-monitor DEBUG 2018-04-03 03:44:44,415 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:44_SYSTEM
-monitor DEBUG 2018-04-03 03:44:45,095 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:45,103 [filesystem_monitor_server.py:222] 2018-04-03-03:44:45 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:45_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:45,600 [filesystem_monitor_server.py:222] 2018-04-03-03:44:45 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:45_lxc.txt
-monitor DEBUG 2018-04-03 03:44:45,668 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:45_SYSTEM
-monitor DEBUG 2018-04-03 03:44:46,156 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:46,353 [filesystem_monitor_server.py:222] 2018-04-03-03:44:46 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:46_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:11:30,050 [filesystem_monitor_server.py:222] 2018-04-11-06:11:30 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:30_lxc.txt
 Did not find any restart pages in $LogFile and it was not empty.
 The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:44:47,212 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:47,639 [filesystem_monitor_server.py:222] 2018-04-03-03:44:47 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:47_lxc.txt
-monitor DEBUG 2018-04-03 03:44:48,157 [filesystem_monitor_server.py:222] 2018-04-03-03:44:48 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:48_lxc.txt
-monitor DEBUG 2018-04-03 03:44:48,290 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:44:48,321 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:48_SYSTEM
-monitor DEBUG 2018-04-03 03:44:49,149 [filesystem_monitor_server.py:222] 2018-04-03-03:44:49 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:49_lxc.txt
+monitor DEBUG 2018-04-11 06:11:31,295 [filesystem_monitor_server.py:222] 2018-04-11-06:11:31 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:31_lxc.txt
+monitor DEBUG 2018-04-11 06:11:31,486 [filesystem_monitor_server.py:222] 2018-04-11-06:11:31 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:31_lxc.txt
+monitor DEBUG 2018-04-11 06:11:31,556 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:31_SYSTEM
+monitor DEBUG 2018-04-11 06:11:32,638 [filesystem_monitor_server.py:222] 2018-04-11-06:11:32 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:32_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:49,589 [filesystem_monitor_server.py:222] 2018-04-03-03:44:49 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:49_lxc.txt
-monitor DEBUG 2018-04-03 03:44:49,674 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:49_SYSTEM
-monitor DEBUG 2018-04-03 03:44:50,428 [filesystem_monitor_server.py:222] 2018-04-03-03:44:50 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:50_lxc.txt
+monitor DEBUG 2018-04-11 06:11:32,759 [filesystem_monitor_server.py:222] 2018-04-11-06:11:32 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:32_lxc.txt
+monitor DEBUG 2018-04-11 06:11:32,819 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:32_SYSTEM
+monitor DEBUG 2018-04-11 06:11:33,855 [filesystem_monitor_server.py:222] 2018-04-11-06:11:33 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:33_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:50,951 [filesystem_monitor_server.py:222] 2018-04-03-03:44:50 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:50_lxc.txt
-monitor DEBUG 2018-04-03 03:44:51,029 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:50_SYSTEM
-monitor DEBUG 2018-04-03 03:44:51,758 [filesystem_monitor_server.py:222] 2018-04-03-03:44:51 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:51_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-The disk contains an unclean file system (0, 0).
-The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:44:53,055 [filesystem_monitor_server.py:222] 2018-04-03-03:44:53 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:53_lxc.txt
-monitor DEBUG 2018-04-03 03:44:53,556 [filesystem_monitor_server.py:222] 2018-04-03-03:44:53 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:53_lxc.txt
-monitor DEBUG 2018-04-03 03:44:53,755 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:53_SYSTEM
-monitor DEBUG 2018-04-03 03:44:54,559 [filesystem_monitor_server.py:222] 2018-04-03-03:44:54 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:54_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:54,962 [filesystem_monitor_server.py:222] 2018-04-03-03:44:54 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:54_lxc.txt
-monitor DEBUG 2018-04-03 03:44:55,045 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:54_SYSTEM
-monitor DEBUG 2018-04-03 03:44:55,852 [filesystem_monitor_server.py:222] 2018-04-03-03:44:55 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:55_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:44:56,316 [filesystem_monitor_server.py:222] 2018-04-03-03:44:56 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:56_lxc.txt
-monitor DEBUG 2018-04-03 03:44:56,402 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:56_SYSTEM
-monitor DEBUG 2018-04-03 03:44:57,118 [filesystem_monitor_server.py:222] 2018-04-03-03:44:57 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:57_lxc.txt
+monitor DEBUG 2018-04-11 06:11:34,196 [filesystem_monitor_server.py:222] 2018-04-11-06:11:34 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:34_lxc.txt
+monitor DEBUG 2018-04-11 06:11:34,262 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:34_SYSTEM
+monitor DEBUG 2018-04-11 06:11:35,082 [filesystem_monitor_server.py:222] 2018-04-11-06:11:35 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:35_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
 The disk contains an unclean file system (0, 0).
 The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:44:58,419 [filesystem_monitor_server.py:222] 2018-04-03-03:44:58 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:44:58_lxc.txt
-monitor DEBUG 2018-04-03 03:44:58,969 [filesystem_monitor_server.py:222] 2018-04-03-03:44:58 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:44:58_lxc.txt
-monitor DEBUG 2018-04-03 03:45:00,085 [filesystem_monitor_server.py:222] 2018-04-03-03:45:00 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:00_lxc.txt
+monitor DEBUG 2018-04-11 06:11:36,331 [filesystem_monitor_server.py:222] 2018-04-11-06:11:36 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:36_lxc.txt
+monitor DEBUG 2018-04-11 06:11:36,794 [filesystem_monitor_server.py:222] 2018-04-11-06:11:36 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:36_lxc.txt
+monitor DEBUG 2018-04-11 06:11:37,871 [filesystem_monitor_server.py:222] 2018-04-11-06:11:37 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:37_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:00,289 [filesystem_monitor_server.py:222] 2018-04-03-03:45:00 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:00_lxc.txt
+monitor DEBUG 2018-04-11 06:11:37,974 [filesystem_monitor_server.py:222] 2018-04-11-06:11:37 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:37_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:01,508 [filesystem_monitor_server.py:222] 2018-04-03-03:45:01 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:01_lxc.txt
-monitor DEBUG 2018-04-03 03:45:01,509 [filesystem_monitor_server.py:222] 2018-04-03-03:45:01 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:01_lxc.txt
+monitor DEBUG 2018-04-11 06:11:39,107 [filesystem_monitor_server.py:222] 2018-04-11-06:11:39 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:39_lxc.txt
+monitor DEBUG 2018-04-11 06:11:39,139 [filesystem_monitor_server.py:222] 2018-04-11-06:11:39 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:39_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:02,841 [filesystem_monitor_server.py:222] 2018-04-03-03:45:02 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:02_lxc.txt
-monitor DEBUG 2018-04-03 03:45:02,881 [filesystem_monitor_server.py:222] 2018-04-03-03:45:02 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:02_lxc.txt
+monitor DEBUG 2018-04-11 06:11:40,338 [filesystem_monitor_server.py:222] 2018-04-11-06:11:40 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:40_lxc.txt
+monitor DEBUG 2018-04-11 06:11:40,358 [filesystem_monitor_server.py:222] 2018-04-11-06:11:40 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:40_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:04,113 [filesystem_monitor_server.py:222] 2018-04-03-03:45:04 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:04_lxc.txt
-monitor DEBUG 2018-04-03 03:45:04,172 [filesystem_monitor_server.py:222] 2018-04-03-03:45:04 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:04_lxc.txt
+monitor DEBUG 2018-04-11 06:11:41,559 [filesystem_monitor_server.py:222] 2018-04-11-06:11:41 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:41_lxc.txt
+monitor DEBUG 2018-04-11 06:11:41,777 [filesystem_monitor_server.py:222] 2018-04-11-06:11:41 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:41_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:05,388 [filesystem_monitor_server.py:222] 2018-04-03-03:45:05 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:05_lxc.txt
-monitor DEBUG 2018-04-03 03:45:05,478 [filesystem_monitor_server.py:222] 2018-04-03-03:45:05 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:05_lxc.txt
+monitor DEBUG 2018-04-11 06:11:42,723 [filesystem_monitor_server.py:222] 2018-04-11-06:11:42 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:42_lxc.txt
+monitor DEBUG 2018-04-11 06:11:43,021 [filesystem_monitor_server.py:222] 2018-04-11-06:11:43 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:43_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:06,630 [filesystem_monitor_server.py:222] 2018-04-03-03:45:06 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:06_lxc.txt
-monitor DEBUG 2018-04-03 03:45:06,914 [filesystem_monitor_server.py:222] 2018-04-03-03:45:06 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:06_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-The disk contains an unclean file system (0, 0).
-The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:45:08,228 [filesystem_monitor_server.py:222] 2018-04-03-03:45:08 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:08_lxc.txt
-monitor DEBUG 2018-04-03 03:45:09,201 [filesystem_monitor_server.py:222] 2018-04-03-03:45:09 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:09_lxc.txt
-monitor DEBUG 2018-04-03 03:45:09,936 [filesystem_monitor_server.py:222] 2018-04-03-03:45:09 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:09_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:10,440 [filesystem_monitor_server.py:222] 2018-04-03-03:45:10 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:10_lxc.txt
-monitor DEBUG 2018-04-03 03:45:11,251 [filesystem_monitor_server.py:222] 2018-04-03-03:45:11 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:11_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:11,741 [filesystem_monitor_server.py:222] 2018-04-03-03:45:11 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:11_lxc.txt
-monitor DEBUG 2018-04-03 03:45:12,841 [filesystem_monitor_server.py:222] 2018-04-03-03:45:12 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:12_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:13,008 [filesystem_monitor_server.py:222] 2018-04-03-03:45:13 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:13_lxc.txt
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:14,263 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:14,274 [filesystem_monitor_server.py:222] 2018-04-03-03:45:14 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:14_lxc.txt
-monitor DEBUG 2018-04-03 03:45:14,330 [filesystem_monitor_server.py:222] 2018-04-03-03:45:14 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:14_lxc.txt
-monitor DEBUG 2018-04-03 03:45:15,329 [filesystem_monitor_server.py:145] rm success
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:15,520 [filesystem_monitor_server.py:222] 2018-04-03-03:45:15 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:15_lxc.txt
-monitor DEBUG 2018-04-03 03:45:15,537 [filesystem_monitor_server.py:222] 2018-04-03-03:45:15 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:15_lxc.txt
-monitor DEBUG 2018-04-03 03:45:15,617 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:15_SYSTEM
-monitor DEBUG 2018-04-03 03:45:16,405 [filesystem_monitor_server.py:145] rm success
-WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
-         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
-         Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:16,815 [filesystem_monitor_server.py:222] 2018-04-03-03:45:16 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:16_lxc.txt
-monitor DEBUG 2018-04-03 03:45:16,829 [filesystem_monitor_server.py:222] 2018-04-03-03:45:16 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:16_lxc.txt
-monitor DEBUG 2018-04-03 03:45:16,911 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:16_SYSTEM
-monitor DEBUG 2018-04-03 03:45:17,474 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:11:43,962 [filesystem_monitor_server.py:222] 2018-04-11-06:11:43 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:43_lxc.txt
+monitor DEBUG 2018-04-11 06:11:44,274 [filesystem_monitor_server.py:222] 2018-04-11-06:11:44 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:44_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
 The disk contains an unclean file system (0, 0).
 The file system wasn't safely closed on Windows. Fixing.
-monitor DEBUG 2018-04-03 03:45:18,101 [filesystem_monitor_server.py:222] 2018-04-03-03:45:18 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:18_lxc.txt
-monitor DEBUG 2018-04-03 03:45:18,539 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:19,384 [filesystem_monitor_server.py:222] 2018-04-03-03:45:19 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:19_lxc.txt
-monitor DEBUG 2018-04-03 03:45:19,399 [filesystem_monitor_server.py:222] 2018-04-03-03:45:19 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:19_lxc.txt
-monitor DEBUG 2018-04-03 03:45:19,491 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:19_SYSTEM
-monitor DEBUG 2018-04-03 03:45:19,626 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:11:45,574 [filesystem_monitor_server.py:222] 2018-04-11-06:11:45 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:45_lxc.txt
+monitor DEBUG 2018-04-11 06:11:46,558 [filesystem_monitor_server.py:222] 2018-04-11-06:11:46 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:46_lxc.txt
+monitor DEBUG 2018-04-11 06:11:47,065 [filesystem_monitor_server.py:222] 2018-04-11-06:11:47 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:47_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:20,679 [filesystem_monitor_server.py:222] 2018-04-03-03:45:20 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:20_lxc.txt
-monitor DEBUG 2018-04-03 03:45:20,719 [filesystem_monitor_server.py:222] 2018-04-03-03:45:20 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:20_lxc.txt
-monitor DEBUG 2018-04-03 03:45:20,753 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:20,805 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:20_SYSTEM
-monitor DEBUG 2018-04-03 03:45:21,836 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:11:47,745 [filesystem_monitor_server.py:222] 2018-04-11-06:11:47 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:47_lxc.txt
+monitor DEBUG 2018-04-11 06:11:48,341 [filesystem_monitor_server.py:222] 2018-04-11-06:11:48 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:48_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:21,939 [filesystem_monitor_server.py:222] 2018-04-03-03:45:21 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:21_lxc.txt
-monitor DEBUG 2018-04-03 03:45:22,004 [filesystem_monitor_server.py:222] 2018-04-03-03:45:22 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:22_lxc.txt
-monitor DEBUG 2018-04-03 03:45:22,095 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:22_SYSTEM
-monitor DEBUG 2018-04-03 03:45:22,905 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:11:48,916 [filesystem_monitor_server.py:222] 2018-04-11-06:11:48 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:48_lxc.txt
+monitor DEBUG 2018-04-11 06:11:49,619 [filesystem_monitor_server.py:222] 2018-04-11-06:11:49 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:49_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:23,237 [filesystem_monitor_server.py:222] 2018-04-03-03:45:23 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:23_lxc.txt
-monitor DEBUG 2018-04-03 03:45:23,300 [filesystem_monitor_server.py:222] 2018-04-03-03:45:23 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:23_lxc.txt
-monitor DEBUG 2018-04-03 03:45:23,379 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:23_SYSTEM
-monitor DEBUG 2018-04-03 03:45:23,971 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:24,536 [filesystem_monitor_server.py:222] 2018-04-03-03:45:24 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:24_lxc.txt
+monitor DEBUG 2018-04-11 06:11:50,120 [filesystem_monitor_server.py:222] 2018-04-11-06:11:50 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:50_lxc.txt
+monitor DEBUG 2018-04-11 06:11:51,070 [filesystem_monitor_server.py:222] 2018-04-11-06:11:51 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:51_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:24,691 [filesystem_monitor_server.py:222] 2018-04-03-03:45:24 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:24_lxc.txt
-monitor DEBUG 2018-04-03 03:45:24,778 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:24_SYSTEM
-monitor DEBUG 2018-04-03 03:45:25,046 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:25,811 [filesystem_monitor_server.py:222] 2018-04-03-03:45:25 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:25_lxc.txt
+monitor DEBUG 2018-04-11 06:11:51,315 [filesystem_monitor_server.py:222] 2018-04-11-06:11:51 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:51_lxc.txt
+monitor DEBUG 2018-04-11 06:11:52,403 [filesystem_monitor_server.py:222] 2018-04-11-06:11:52 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:52_lxc.txt
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:26,123 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:26,187 [filesystem_monitor_server.py:222] 2018-04-03-03:45:26 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:26_lxc.txt
-monitor DEBUG 2018-04-03 03:45:26,268 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:26_SYSTEM
-monitor DEBUG 2018-04-03 03:45:27,100 [filesystem_monitor_server.py:222] 2018-04-03-03:45:27 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:27_lxc.txt
-monitor DEBUG 2018-04-03 03:45:27,185 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:11:52,529 [filesystem_monitor_server.py:222] 2018-04-11-06:11:52 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:52_lxc.txt
+monitor DEBUG 2018-04-11 06:11:53,020 [filesystem_monitor_server.py:145] rm success
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:27,541 [filesystem_monitor_server.py:222] 2018-04-03-03:45:27 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:27_lxc.txt
-monitor DEBUG 2018-04-03 03:45:27,619 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:27_SYSTEM
-monitor DEBUG 2018-04-03 03:45:28,251 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:28,366 [filesystem_monitor_server.py:222] 2018-04-03-03:45:28 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:28_lxc.txt
+monitor DEBUG 2018-04-11 06:11:53,648 [filesystem_monitor_server.py:222] 2018-04-11-06:11:53 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:53_lxc.txt
+monitor DEBUG 2018-04-11 06:11:53,714 [filesystem_monitor_server.py:222] 2018-04-11-06:11:53 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:53_lxc.txt
+monitor DEBUG 2018-04-11 06:11:54,083 [filesystem_monitor_server.py:145] rm success
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:28,830 [filesystem_monitor_server.py:222] 2018-04-03-03:45:28 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:28_lxc.txt
-monitor DEBUG 2018-04-03 03:45:28,910 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:28_SYSTEM
-monitor DEBUG 2018-04-03 03:45:29,322 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:29,652 [filesystem_monitor_server.py:222] 2018-04-03-03:45:29 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:29_lxc.txt
+The disk contains an unclean file system (0, 0).
+The file system wasn't safely closed on Windows. Fixing.
+monitor DEBUG 2018-04-11 06:11:54,911 [filesystem_monitor_server.py:222] 2018-04-11-06:11:54 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:54_lxc.txt
+monitor DEBUG 2018-04-11 06:11:55,144 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:11:56,205 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:11:56,315 [filesystem_monitor_server.py:222] 2018-04-11-06:11:56 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:56_lxc.txt
+monitor DEBUG 2018-04-11 06:11:56,390 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:56_SYSTEM
+monitor DEBUG 2018-04-11 06:11:56,466 [filesystem_monitor_server.py:222] 2018-04-11-06:11:56 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:56_lxc.txt
+monitor DEBUG 2018-04-11 06:11:57,270 [filesystem_monitor_server.py:145] rm success
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
-monitor DEBUG 2018-04-03 03:45:30,155 [filesystem_monitor_server.py:222] 2018-04-03-03:45:30 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:30_lxc.txt
-monitor DEBUG 2018-04-03 03:45:30,233 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-03-03:45:30_SYSTEM
-monitor DEBUG 2018-04-03 03:45:30,393 [filesystem_monitor_server.py:145] rm success
-monitor DEBUG 2018-04-03 03:45:30,952 [filesystem_monitor_server.py:222] 2018-04-03-03:45:30 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-03-03:45:30_lxc.txt
+monitor DEBUG 2018-04-11 06:11:57,561 [filesystem_monitor_server.py:222] 2018-04-11-06:11:57 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:57_lxc.txt
+monitor DEBUG 2018-04-11 06:11:57,636 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:57_SYSTEM
+monitor DEBUG 2018-04-11 06:11:57,723 [filesystem_monitor_server.py:222] 2018-04-11-06:11:57 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:57_lxc.txt
+monitor DEBUG 2018-04-11 06:11:58,328 [filesystem_monitor_server.py:145] rm success
 WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
          Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
          Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:11:58,802 [filesystem_monitor_server.py:222] 2018-04-11-06:11:58 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:58_lxc.txt
+monitor DEBUG 2018-04-11 06:11:58,874 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:11:58_SYSTEM
+monitor DEBUG 2018-04-11 06:11:58,962 [filesystem_monitor_server.py:222] 2018-04-11-06:11:58 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:11:58_lxc.txt
+monitor DEBUG 2018-04-11 06:11:59,389 [filesystem_monitor_server.py:145] rm success
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:12:00,062 [filesystem_monitor_server.py:222] 2018-04-11-06:12:00 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:00_lxc.txt
+monitor DEBUG 2018-04-11 06:12:00,125 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:00_SYSTEM
+monitor DEBUG 2018-04-11 06:12:00,178 [filesystem_monitor_server.py:222] 2018-04-11-06:12:00 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:00_lxc.txt
+monitor DEBUG 2018-04-11 06:12:00,497 [filesystem_monitor_server.py:145] rm success
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:12:01,295 [filesystem_monitor_server.py:222] 2018-04-11-06:12:01 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:01_lxc.txt
+monitor DEBUG 2018-04-11 06:12:01,363 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:01_SYSTEM
+monitor DEBUG 2018-04-11 06:12:01,534 [filesystem_monitor_server.py:222] 2018-04-11-06:12:01 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:01_lxc.txt
+monitor DEBUG 2018-04-11 06:12:01,583 [filesystem_monitor_server.py:145] rm success
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:12:02,552 [filesystem_monitor_server.py:222] 2018-04-11-06:12:02 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:02_lxc.txt
+monitor DEBUG 2018-04-11 06:12:02,621 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:02_SYSTEM
+monitor DEBUG 2018-04-11 06:12:02,662 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:12:02,993 [filesystem_monitor_server.py:222] 2018-04-11-06:12:02 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:02_lxc.txt
+monitor DEBUG 2018-04-11 06:12:03,728 [filesystem_monitor_server.py:145] rm success
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:12:03,818 [filesystem_monitor_server.py:222] 2018-04-11-06:12:03 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:03_lxc.txt
+monitor DEBUG 2018-04-11 06:12:03,895 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:03_SYSTEM
+monitor DEBUG 2018-04-11 06:12:04,248 [filesystem_monitor_server.py:222] 2018-04-11-06:12:04 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:04_lxc.txt
+monitor DEBUG 2018-04-11 06:12:04,794 [filesystem_monitor_server.py:145] rm success
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:12:05,077 [filesystem_monitor_server.py:222] 2018-04-11-06:12:05 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:05_lxc.txt
+monitor DEBUG 2018-04-11 06:12:05,147 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:05_SYSTEM
+monitor DEBUG 2018-04-11 06:12:05,500 [filesystem_monitor_server.py:222] 2018-04-11-06:12:05 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:05_lxc.txt
+monitor DEBUG 2018-04-11 06:12:05,852 [filesystem_monitor_server.py:145] rm success
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+The disk contains an unclean file system (0, 0).
+The file system wasn't safely closed on Windows. Fixing.
+monitor DEBUG 2018-04-11 06:12:06,866 [filesystem_monitor_server.py:222] 2018-04-11-06:12:06 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:06_lxc.txt
+monitor DEBUG 2018-04-11 06:12:06,921 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:12:07,790 [filesystem_monitor_server.py:222] 2018-04-11-06:12:07 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:07_lxc.txt
+monitor DEBUG 2018-04-11 06:12:07,859 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:07_SYSTEM
+monitor DEBUG 2018-04-11 06:12:07,990 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:12:08,434 [filesystem_monitor_server.py:222] 2018-04-11-06:12:08 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:08_lxc.txt
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:12:09,048 [filesystem_monitor_server.py:222] 2018-04-11-06:12:09 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:09_lxc.txt
+monitor DEBUG 2018-04-11 06:12:09,110 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:09_SYSTEM
+monitor DEBUG 2018-04-11 06:12:09,673 [filesystem_monitor_server.py:222] 2018-04-11-06:12:09 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:09_lxc.txt
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:12:10,292 [filesystem_monitor_server.py:222] 2018-04-11-06:12:10 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:10_lxc.txt
+monitor DEBUG 2018-04-11 06:12:10,358 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:10_SYSTEM
+monitor DEBUG 2018-04-11 06:12:10,899 [filesystem_monitor_server.py:222] 2018-04-11-06:12:10 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:10_lxc.txt
+WARNING: Image format was not specified for '/mnt/disk/win7.qcow2' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+monitor DEBUG 2018-04-11 06:12:11,541 [filesystem_monitor_server.py:222] 2018-04-11-06:12:11 2c520928-3aae-057a-fb6b-3e06a8d261e1 files/2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:11_lxc.txt
+monitor DEBUG 2018-04-11 06:12:11,607 [filesystem_monitor_server.py:89] 2c520928-3aae-057a-fb6b-3e06a8d261e1_2018-04-11-06:12:11_SYSTEM
+monitor DEBUG 2018-04-11 06:12:12,061 [filesystem_monitor_server.py:145] rm success
+monitor DEBUG 2018-04-11 06:12:12,137 [filesystem_monitor_server.py:222] 2018-04-11-06:12:12 b209afc4-0687-4bcf-9a90-ff824d000001 files/b209afc4-0687-4bcf-9a90-ff824d000001_2018-04-11-06:12:12_lxc.txt
